@@ -293,6 +293,7 @@
                         <option value="grad">BM-21 Grad</option>
                         <option value="howitzer">Howitzer</option>
                         <option value="mortar">82mm Mortar (RU)</option>
+                        <option value="mortarUS">82mm Mortar (US)</option>
                     </select>
                 </div>
                 <button class="btn-reset" onclick="resetInputs()">RESET INPUTS</button>
@@ -500,8 +501,14 @@
                 } else {
                     const dx = t.x - myPos.x, dy = t.y - myPos.y, dz = t.z - myPos.z;
                     const dist = Math.sqrt(dx * dx + dy * dy);
-                    const baseAz = Math.round(((Math.atan2(dx, dy) * (180 / Math.PI) + 360) % 360) * (6400 / 360));
-                    const finalAz = (baseAz + t.offsets.az + 6400) % 6400;
+                    if (weapon === 'mortarUS') {   
+                        const baseAz = Math.round(((Math.atan2(dx, dy) * (180 / Math.PI) + 360) % 360) * (6000 / 360));
+                        const finalAz = (baseAz + t.offsets.az + 6000) % 6000; 
+                    }
+                    else {
+                        const baseAz = Math.round(((Math.atan2(dx, dy) * (180 / Math.PI) + 360) % 360) * (6400 / 360));
+                        const finalAz = (baseAz + t.offsets.az + 6400) % 6400;
+                    }
 
                     const azUI = `
                         <div class="stat-block">
@@ -543,7 +550,27 @@
                             results = `<div style="color:var(--danger)">OUT OF RANGE (${Math.round(dist)}m)</div>`;
                         }
                     }
-                    else {
+                    else if (weapon === 'mortar') {
+                        // Mortar
+                        results = ``;
+
+                        results += `<div class="result-line" style="border-bottom: 1px solid #333; margin-bottom: 10px; padding-bottom: 10px; background: transparent;">${azUI}</div>`;
+
+                        let validChargeFound = false;
+                        for (let charge = 1; charge <= 5; charge++) {
+                            const sol = interpolate(dist, MORTAR_DATA[charge]);
+                            if (sol) {
+                                validChargeFound = true;
+                                let el = Math.round(sol.e + (dz / 100) * sol.de) + t.offsets.el[charge];
+                                el = ((el % 6400) + 6400) % 6400;
+                                results += `<div class="result-line"><span style="width: 80px; font-weight: bold; color: var(--text-muted)">CHG ${charge}</span> ↕ <button class="adj-btn" onclick="changeOffset(${t.id}, 'el', -1, ${charge})">◀</button><strong style="color:var(--accent)">${el}</strong><button class="adj-btn" onclick="changeOffset(${t.id}, 'el', 1, ${charge})">▶</button><span class="offset-text ${t.offsets.el[charge] !== 0 ? 'active' : ''}">${t.offsets.el[charge] !== 0 ? '(' + (t.offsets.el[charge] > 0 ? '+' : '') + t.offsets.el[charge] + ')' : ''}</span> <span style="margin-left:10px; color:#777">(${Math.round(dist)}m / ${sol.t}s)</span></div>`;
+                            }
+                        }
+                        if (!validChargeFound) {
+                            results = `<div style="color:var(--danger)">OUT OF RANGE (${Math.round(dist)}m)</div>`;
+                        }
+                    }
+                    else if (weapon === 'mortarUS') {
                         // Mortar
                         results = ``;
 
