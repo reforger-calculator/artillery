@@ -1,0 +1,4076 @@
+{
+  "High angle": {
+    "1": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 21,
+      "data": {
+        "2800": {
+          "elev_mil": 1279,
+          "time_of_flight_sec": 43.5,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2326,
+          "angle_of_impact_deg": 75.4,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 76
+        },
+        "2900": {
+          "elev_mil": 1266,
+          "time_of_flight_sec": 43.3,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2305,
+          "angle_of_impact_deg": 74.7,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 77
+        },
+        "3000": {
+          "elev_mil": 1252,
+          "time_of_flight_sec": 43.1,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2283,
+          "angle_of_impact_deg": 73.2,
+          "wind_correct_10ms_cross_mil": 20,
+          "wind_correct_10ms_long_m": 79
+        },
+        "3100": {
+          "elev_mil": 1237,
+          "time_of_flight_sec": 42.9,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2259,
+          "angle_of_impact_deg": 72.5,
+          "wind_correct_10ms_cross_mil": 19,
+          "wind_correct_10ms_long_m": 80
+        },
+        "3200": {
+          "elev_mil": 1223,
+          "time_of_flight_sec": 42.7,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2237,
+          "angle_of_impact_deg": 71,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 82
+        },
+        "3300": {
+          "elev_mil": 1208,
+          "time_of_flight_sec": 42.5,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2211,
+          "angle_of_impact_deg": 71.1,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 82
+        },
+        "3400": {
+          "elev_mil": 1192,
+          "time_of_flight_sec": 42.2,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2184,
+          "angle_of_impact_deg": 70.3,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 83
+        },
+        "3500": {
+          "elev_mil": 1176,
+          "time_of_flight_sec": 41.9,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2154,
+          "angle_of_impact_deg": 70.4,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 82
+        },
+        "3600": {
+          "elev_mil": 1160,
+          "time_of_flight_sec": 41.6,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 2125,
+          "angle_of_impact_deg": 68.8,
+          "wind_correct_10ms_cross_mil": 16,
+          "wind_correct_10ms_long_m": 84
+        },
+        "3700": {
+          "elev_mil": 1143,
+          "time_of_flight_sec": 41.3,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2093,
+          "angle_of_impact_deg": 68,
+          "wind_correct_10ms_cross_mil": 16,
+          "wind_correct_10ms_long_m": 85
+        },
+        "3800": {
+          "elev_mil": 1125,
+          "time_of_flight_sec": 41.0,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2057,
+          "angle_of_impact_deg": 67.9,
+          "wind_correct_10ms_cross_mil": 16,
+          "wind_correct_10ms_long_m": 85
+        },
+        "3900": {
+          "elev_mil": 1106,
+          "time_of_flight_sec": 40.6,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2019,
+          "angle_of_impact_deg": 66.2,
+          "wind_correct_10ms_cross_mil": 15,
+          "wind_correct_10ms_long_m": 86
+        },
+        "4000": {
+          "elev_mil": 1087,
+          "time_of_flight_sec": 40.2,
+          "d_elev_per_100m_dr_mil": 10,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1980,
+          "angle_of_impact_deg": 65.2,
+          "wind_correct_10ms_cross_mil": 14,
+          "wind_correct_10ms_long_m": 87
+        },
+        "4100": {
+          "elev_mil": 1066,
+          "time_of_flight_sec": 39.7,
+          "d_elev_per_100m_dr_mil": 11,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1937,
+          "angle_of_impact_deg": 64.2,
+          "wind_correct_10ms_cross_mil": 14,
+          "wind_correct_10ms_long_m": 87
+        },
+        "4200": {
+          "elev_mil": 1044,
+          "time_of_flight_sec": 39.2,
+          "d_elev_per_100m_dr_mil": 12,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1889,
+          "angle_of_impact_deg": 63.1,
+          "wind_correct_10ms_cross_mil": 13,
+          "wind_correct_10ms_long_m": 88
+        },
+        "4300": {
+          "elev_mil": 1020,
+          "time_of_flight_sec": 38.7,
+          "d_elev_per_100m_dr_mil": 13,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1835,
+          "angle_of_impact_deg": 62.8,
+          "wind_correct_10ms_cross_mil": 13,
+          "wind_correct_10ms_long_m": 88
+        },
+        "4400": {
+          "elev_mil": 993,
+          "time_of_flight_sec": 38.0,
+          "d_elev_per_100m_dr_mil": 14,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1776,
+          "angle_of_impact_deg": 60.5,
+          "wind_correct_10ms_cross_mil": 12,
+          "wind_correct_10ms_long_m": 88
+        }
+      }
+    },
+    "2": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 45,
+      "data": {
+        "4400": {
+          "elev_mil": 1257,
+          "time_of_flight_sec": 53.8,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 3547,
+          "angle_of_impact_deg": 74.7,
+          "wind_correct_10ms_cross_mil": 25,
+          "wind_correct_10ms_long_m": 140
+        },
+        "4600": {
+          "elev_mil": 1238,
+          "time_of_flight_sec": 53.4,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 3501,
+          "angle_of_impact_deg": 73.9,
+          "wind_correct_10ms_cross_mil": 24,
+          "wind_correct_10ms_long_m": 142
+        },
+        "4800": {
+          "elev_mil": 1218,
+          "time_of_flight_sec": 53.1,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 3453,
+          "angle_of_impact_deg": 72.2,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 145
+        },
+        "5000": {
+          "elev_mil": 1198,
+          "time_of_flight_sec": 52.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 3399,
+          "angle_of_impact_deg": 72.1,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 146
+        },
+        "5200": {
+          "elev_mil": 1177,
+          "time_of_flight_sec": 52.2,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 3341,
+          "angle_of_impact_deg": 72,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 146
+        },
+        "5400": {
+          "elev_mil": 1154,
+          "time_of_flight_sec": 51.7,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 3278,
+          "angle_of_impact_deg": 70.2,
+          "wind_correct_10ms_cross_mil": 20,
+          "wind_correct_10ms_long_m": 149
+        },
+        "5600": {
+          "elev_mil": 1131,
+          "time_of_flight_sec": 51.1,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 3207,
+          "angle_of_impact_deg": 69.9,
+          "wind_correct_10ms_cross_mil": 20,
+          "wind_correct_10ms_long_m": 149
+        },
+        "5800": {
+          "elev_mil": 1106,
+          "time_of_flight_sec": 50.5,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 3133,
+          "angle_of_impact_deg": 68,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 152
+        },
+        "6000": {
+          "elev_mil": 1079,
+          "time_of_flight_sec": 49.8,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 3050,
+          "angle_of_impact_deg": 67.6,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 152
+        },
+        "6200": {
+          "elev_mil": 1050,
+          "time_of_flight_sec": 49.0,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2952,
+          "angle_of_impact_deg": 65.4,
+          "wind_correct_10ms_cross_mil": 17,
+          "wind_correct_10ms_long_m": 153
+        },
+        "6400": {
+          "elev_mil": 1018,
+          "time_of_flight_sec": 48.1,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2845,
+          "angle_of_impact_deg": 64.8,
+          "wind_correct_10ms_cross_mil": 16,
+          "wind_correct_10ms_long_m": 153
+        },
+        "6600": {
+          "elev_mil": 982,
+          "time_of_flight_sec": 47.1,
+          "d_elev_per_100m_dr_mil": 10,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2721,
+          "angle_of_impact_deg": 62.2,
+          "wind_correct_10ms_cross_mil": 15,
+          "wind_correct_10ms_long_m": 153
+        },
+        "6800": {
+          "elev_mil": 940,
+          "time_of_flight_sec": 45.7,
+          "d_elev_per_100m_dr_mil": 13,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 2571,
+          "angle_of_impact_deg": 60.1,
+          "wind_correct_10ms_cross_mil": 14,
+          "wind_correct_10ms_long_m": 152
+        },
+        "7000": {
+          "elev_mil": 884,
+          "time_of_flight_sec": 43.9,
+          "d_elev_per_100m_dr_mil": 18,
+          "time_of_flight_per_100m_dr_sec": 0.7,
+          "peak_alt_m": 2365,
+          "angle_of_impact_deg": 57.2,
+          "wind_correct_10ms_cross_mil": 13,
+          "wind_correct_10ms_long_m": 149
+        }
+      }
+    },
+    "3": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 50,
+      "data": {
+        "6800": {
+          "elev_mil": 1271,
+          "time_of_flight_sec": 70.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 6168,
+          "angle_of_impact_deg": 78.2,
+          "wind_correct_10ms_cross_mil": 35,
+          "wind_correct_10ms_long_m": 270
+        },
+        "7000": {
+          "elev_mil": 1259,
+          "time_of_flight_sec": 70.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 6119,
+          "angle_of_impact_deg": 77,
+          "wind_correct_10ms_cross_mil": 32,
+          "wind_correct_10ms_long_m": 274
+        },
+        "7200": {
+          "elev_mil": 1247,
+          "time_of_flight_sec": 70.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 6070,
+          "angle_of_impact_deg": 76.6,
+          "wind_correct_10ms_cross_mil": 31,
+          "wind_correct_10ms_long_m": 276
+        },
+        "7400": {
+          "elev_mil": 1235,
+          "time_of_flight_sec": 70.0,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 6021,
+          "angle_of_impact_deg": 76.2,
+          "wind_correct_10ms_cross_mil": 31,
+          "wind_correct_10ms_long_m": 278
+        },
+        "7600": {
+          "elev_mil": 1222,
+          "time_of_flight_sec": 69.7,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5969,
+          "angle_of_impact_deg": 75,
+          "wind_correct_10ms_cross_mil": 28,
+          "wind_correct_10ms_long_m": 282
+        },
+        "7800": {
+          "elev_mil": 1210,
+          "time_of_flight_sec": 69.4,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5921,
+          "angle_of_impact_deg": 74.6,
+          "wind_correct_10ms_cross_mil": 28,
+          "wind_correct_10ms_long_m": 283
+        },
+        "8000": {
+          "elev_mil": 1197,
+          "time_of_flight_sec": 69.1,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5858,
+          "angle_of_impact_deg": 74.7,
+          "wind_correct_10ms_cross_mil": 28,
+          "wind_correct_10ms_long_m": 283
+        },
+        "8200": {
+          "elev_mil": 1183,
+          "time_of_flight_sec": 68.7,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5793,
+          "angle_of_impact_deg": 74.9,
+          "wind_correct_10ms_cross_mil": 28,
+          "wind_correct_10ms_long_m": 282
+        },
+        "8400": {
+          "elev_mil": 1169,
+          "time_of_flight_sec": 68.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5729,
+          "angle_of_impact_deg": 73.7,
+          "wind_correct_10ms_cross_mil": 26,
+          "wind_correct_10ms_long_m": 286
+        },
+        "8600": {
+          "elev_mil": 1155,
+          "time_of_flight_sec": 67.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5664,
+          "angle_of_impact_deg": 73.2,
+          "wind_correct_10ms_cross_mil": 26,
+          "wind_correct_10ms_long_m": 287
+        },
+        "8800": {
+          "elev_mil": 1141,
+          "time_of_flight_sec": 67.5,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 5594,
+          "angle_of_impact_deg": 72.6,
+          "wind_correct_10ms_cross_mil": 25,
+          "wind_correct_10ms_long_m": 288
+        },
+        "9000": {
+          "elev_mil": 1126,
+          "time_of_flight_sec": 67.0,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5516,
+          "angle_of_impact_deg": 72.7,
+          "wind_correct_10ms_cross_mil": 25,
+          "wind_correct_10ms_long_m": 288
+        },
+        "9200": {
+          "elev_mil": 1110,
+          "time_of_flight_sec": 66.5,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5436,
+          "angle_of_impact_deg": 71.4,
+          "wind_correct_10ms_cross_mil": 24,
+          "wind_correct_10ms_long_m": 290
+        },
+        "9400": {
+          "elev_mil": 1094,
+          "time_of_flight_sec": 66.0,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 5353,
+          "angle_of_impact_deg": 70.8,
+          "wind_correct_10ms_cross_mil": 23,
+          "wind_correct_10ms_long_m": 291
+        },
+        "9600": {
+          "elev_mil": 1077,
+          "time_of_flight_sec": 65.4,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5267,
+          "angle_of_impact_deg": 70.8,
+          "wind_correct_10ms_cross_mil": 23,
+          "wind_correct_10ms_long_m": 291
+        },
+        "9800": {
+          "elev_mil": 1060,
+          "time_of_flight_sec": 64.8,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 5171,
+          "angle_of_impact_deg": 69.4,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 292
+        },
+        "10000": {
+          "elev_mil": 1041,
+          "time_of_flight_sec": 64.1,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 5066,
+          "angle_of_impact_deg": 68.6,
+          "wind_correct_10ms_cross_mil": 21,
+          "wind_correct_10ms_long_m": 292
+        },
+        "10200": {
+          "elev_mil": 1021,
+          "time_of_flight_sec": 63.4,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 4951,
+          "angle_of_impact_deg": 68.5,
+          "wind_correct_10ms_cross_mil": 21,
+          "wind_correct_10ms_long_m": 292
+        },
+        "10400": {
+          "elev_mil": 1000,
+          "time_of_flight_sec": 62.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 4834,
+          "angle_of_impact_deg": 66.9,
+          "wind_correct_10ms_cross_mil": 20,
+          "wind_correct_10ms_long_m": 291
+        },
+        "10600": {
+          "elev_mil": 978,
+          "time_of_flight_sec": 61.8,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 4703,
+          "angle_of_impact_deg": 66,
+          "wind_correct_10ms_cross_mil": 19,
+          "wind_correct_10ms_long_m": 290
+        },
+        "10800": {
+          "elev_mil": 953,
+          "time_of_flight_sec": 60.8,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 4556,
+          "angle_of_impact_deg": 64.8,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 288
+        },
+        "11000": {
+          "elev_mil": 925,
+          "time_of_flight_sec": 59.6,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 4382,
+          "angle_of_impact_deg": 63.6,
+          "wind_correct_10ms_cross_mil": 18,
+          "wind_correct_10ms_long_m": 286
+        },
+        "11200": {
+          "elev_mil": 893,
+          "time_of_flight_sec": 58.2,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 4185,
+          "angle_of_impact_deg": 62.1,
+          "wind_correct_10ms_cross_mil": 17,
+          "wind_correct_10ms_long_m": 282
+        },
+        "11400": {
+          "elev_mil": 853,
+          "time_of_flight_sec": 56.5,
+          "d_elev_per_100m_dr_mil": 12,
+          "time_of_flight_per_100m_dr_sec": 0.6,
+          "peak_alt_m": 3935,
+          "angle_of_impact_deg": 60.1,
+          "wind_correct_10ms_cross_mil": 16,
+          "wind_correct_10ms_long_m": 276
+        }
+      }
+    },
+    "4": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 55,
+      "data": {
+        "8800": {
+          "elev_mil": 1274,
+          "time_of_flight_sec": 83.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8600,
+          "angle_of_impact_deg": 79.8,
+          "wind_correct_10ms_cross_mil": 41,
+          "wind_correct_10ms_long_m": 395
+        },
+        "9000": {
+          "elev_mil": 1265,
+          "time_of_flight_sec": 83.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8551,
+          "angle_of_impact_deg": 79.6,
+          "wind_correct_10ms_cross_mil": 40,
+          "wind_correct_10ms_long_m": 397
+        },
+        "9200": {
+          "elev_mil": 1256,
+          "time_of_flight_sec": 83.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8501,
+          "angle_of_impact_deg": 78.7,
+          "wind_correct_10ms_cross_mil": 37,
+          "wind_correct_10ms_long_m": 401
+        },
+        "9400": {
+          "elev_mil": 1247,
+          "time_of_flight_sec": 83.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8451,
+          "angle_of_impact_deg": 78.4,
+          "wind_correct_10ms_cross_mil": 36,
+          "wind_correct_10ms_long_m": 403
+        },
+        "9600": {
+          "elev_mil": 1238,
+          "time_of_flight_sec": 82.7,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8401,
+          "angle_of_impact_deg": 78.1,
+          "wind_correct_10ms_cross_mil": 36,
+          "wind_correct_10ms_long_m": 404
+        },
+        "9800": {
+          "elev_mil": 1228,
+          "time_of_flight_sec": 82.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8347,
+          "angle_of_impact_deg": 77.8,
+          "wind_correct_10ms_cross_mil": 35,
+          "wind_correct_10ms_long_m": 406
+        },
+        "10000": {
+          "elev_mil": 1218,
+          "time_of_flight_sec": 82.2,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8292,
+          "angle_of_impact_deg": 76.9,
+          "wind_correct_10ms_cross_mil": 33,
+          "wind_correct_10ms_long_m": 409
+        },
+        "10200": {
+          "elev_mil": 1209,
+          "time_of_flight_sec": 81.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8234,
+          "angle_of_impact_deg": 77.2,
+          "wind_correct_10ms_cross_mil": 33,
+          "wind_correct_10ms_long_m": 408
+        },
+        "10400": {
+          "elev_mil": 1199,
+          "time_of_flight_sec": 81.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8175,
+          "angle_of_impact_deg": 76.8,
+          "wind_correct_10ms_cross_mil": 33,
+          "wind_correct_10ms_long_m": 409
+        },
+        "10600": {
+          "elev_mil": 1189,
+          "time_of_flight_sec": 81.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8113,
+          "angle_of_impact_deg": 77.1,
+          "wind_correct_10ms_cross_mil": 33,
+          "wind_correct_10ms_long_m": 409
+        },
+        "10800": {
+          "elev_mil": 1178,
+          "time_of_flight_sec": 80.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8045,
+          "angle_of_impact_deg": 76.7,
+          "wind_correct_10ms_cross_mil": 32,
+          "wind_correct_10ms_long_m": 410
+        },
+        "11000": {
+          "elev_mil": 1168,
+          "time_of_flight_sec": 80.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7982,
+          "angle_of_impact_deg": 75.8,
+          "wind_correct_10ms_cross_mil": 30,
+          "wind_correct_10ms_long_m": 413
+        },
+        "11200": {
+          "elev_mil": 1157,
+          "time_of_flight_sec": 80.2,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7914,
+          "angle_of_impact_deg": 75.5,
+          "wind_correct_10ms_cross_mil": 30,
+          "wind_correct_10ms_long_m": 413
+        },
+        "11400": {
+          "elev_mil": 1146,
+          "time_of_flight_sec": 79.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7840,
+          "angle_of_impact_deg": 75.1,
+          "wind_correct_10ms_cross_mil": 29,
+          "wind_correct_10ms_long_m": 414
+        },
+        "11600": {
+          "elev_mil": 1135,
+          "time_of_flight_sec": 79.4,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7761,
+          "angle_of_impact_deg": 75.3,
+          "wind_correct_10ms_cross_mil": 29,
+          "wind_correct_10ms_long_m": 414
+        },
+        "11800": {
+          "elev_mil": 1123,
+          "time_of_flight_sec": 79.0,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7680,
+          "angle_of_impact_deg": 74.9,
+          "wind_correct_10ms_cross_mil": 29,
+          "wind_correct_10ms_long_m": 415
+        },
+        "12000": {
+          "elev_mil": 1111,
+          "time_of_flight_sec": 78.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7599,
+          "angle_of_impact_deg": 73.9,
+          "wind_correct_10ms_cross_mil": 27,
+          "wind_correct_10ms_long_m": 416
+        },
+        "12200": {
+          "elev_mil": 1099,
+          "time_of_flight_sec": 78.1,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7516,
+          "angle_of_impact_deg": 73.5,
+          "wind_correct_10ms_cross_mil": 27,
+          "wind_correct_10ms_long_m": 417
+        },
+        "12400": {
+          "elev_mil": 1087,
+          "time_of_flight_sec": 77.6,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7428,
+          "angle_of_impact_deg": 73,
+          "wind_correct_10ms_cross_mil": 26,
+          "wind_correct_10ms_long_m": 417
+        },
+        "12600": {
+          "elev_mil": 1074,
+          "time_of_flight_sec": 77.1,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7340,
+          "angle_of_impact_deg": 73.2,
+          "wind_correct_10ms_cross_mil": 26,
+          "wind_correct_10ms_long_m": 417
+        },
+        "12800": {
+          "elev_mil": 1060,
+          "time_of_flight_sec": 76.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7233,
+          "angle_of_impact_deg": 72.1,
+          "wind_correct_10ms_cross_mil": 25,
+          "wind_correct_10ms_long_m": 417
+        },
+        "13000": {
+          "elev_mil": 1047,
+          "time_of_flight_sec": 76.0,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7134,
+          "angle_of_impact_deg": 71.6,
+          "wind_correct_10ms_cross_mil": 24,
+          "wind_correct_10ms_long_m": 417
+        },
+        "13200": {
+          "elev_mil": 1032,
+          "time_of_flight_sec": 75.4,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 7024,
+          "angle_of_impact_deg": 71.1,
+          "wind_correct_10ms_cross_mil": 24,
+          "wind_correct_10ms_long_m": 416
+        },
+        "13400": {
+          "elev_mil": 1017,
+          "time_of_flight_sec": 74.8,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 6904,
+          "angle_of_impact_deg": 71.2,
+          "wind_correct_10ms_cross_mil": 24,
+          "wind_correct_10ms_long_m": 416
+        },
+        "13600": {
+          "elev_mil": 1002,
+          "time_of_flight_sec": 74.1,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 6790,
+          "angle_of_impact_deg": 70,
+          "wind_correct_10ms_cross_mil": 23,
+          "wind_correct_10ms_long_m": 414
+        },
+        "13800": {
+          "elev_mil": 985,
+          "time_of_flight_sec": 73.4,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 6655,
+          "angle_of_impact_deg": 69.3,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 413
+        },
+        "14000": {
+          "elev_mil": 968,
+          "time_of_flight_sec": 72.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 6524,
+          "angle_of_impact_deg": 69.3,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 413
+        },
+        "14200": {
+          "elev_mil": 949,
+          "time_of_flight_sec": 71.7,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 6364,
+          "angle_of_impact_deg": 67.9,
+          "wind_correct_10ms_cross_mil": 21,
+          "wind_correct_10ms_long_m": 409
+        },
+        "14400": {
+          "elev_mil": 929,
+          "time_of_flight_sec": 70.8,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 6195,
+          "angle_of_impact_deg": 67,
+          "wind_correct_10ms_cross_mil": 20,
+          "wind_correct_10ms_long_m": 407
+        },
+        "14600": {
+          "elev_mil": 907,
+          "time_of_flight_sec": 69.7,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 6015,
+          "angle_of_impact_deg": 66.9,
+          "wind_correct_10ms_cross_mil": 20,
+          "wind_correct_10ms_long_m": 406
+        },
+        "14800": {
+          "elev_mil": 883,
+          "time_of_flight_sec": 68.5,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 5810,
+          "angle_of_impact_deg": 65,
+          "wind_correct_10ms_cross_mil": 19,
+          "wind_correct_10ms_long_m": 399
+        },
+        "15000": {
+          "elev_mil": 855,
+          "time_of_flight_sec": 67.0,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 5569,
+          "angle_of_impact_deg": 64.6,
+          "wind_correct_10ms_cross_mil": 19,
+          "wind_correct_10ms_long_m": 397
+        }
+      }
+    },
+    "5": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 73,
+      "data": {
+        "10600": {
+          "elev_mil": 1275,
+          "time_of_flight_sec": 94.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10997,
+          "angle_of_impact_deg": 81.2,
+          "wind_correct_10ms_cross_mil": 46,
+          "wind_correct_10ms_long_m": 517
+        },
+        "10800": {
+          "elev_mil": 1267,
+          "time_of_flight_sec": 94.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10941,
+          "angle_of_impact_deg": 80.9,
+          "wind_correct_10ms_cross_mil": 45,
+          "wind_correct_10ms_long_m": 519
+        },
+        "11000": {
+          "elev_mil": 1260,
+          "time_of_flight_sec": 94.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10893,
+          "angle_of_impact_deg": 80.3,
+          "wind_correct_10ms_cross_mil": 42,
+          "wind_correct_10ms_long_m": 523
+        },
+        "11200": {
+          "elev_mil": 1252,
+          "time_of_flight_sec": 94.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10838,
+          "angle_of_impact_deg": 80,
+          "wind_correct_10ms_cross_mil": 41,
+          "wind_correct_10ms_long_m": 524
+        },
+        "11400": {
+          "elev_mil": 1245,
+          "time_of_flight_sec": 93.8,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10790,
+          "angle_of_impact_deg": 79.8,
+          "wind_correct_10ms_cross_mil": 40,
+          "wind_correct_10ms_long_m": 525
+        },
+        "11600": {
+          "elev_mil": 1237,
+          "time_of_flight_sec": 93.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10735,
+          "angle_of_impact_deg": 79.6,
+          "wind_correct_10ms_cross_mil": 40,
+          "wind_correct_10ms_long_m": 526
+        },
+        "11800": {
+          "elev_mil": 1229,
+          "time_of_flight_sec": 93.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10681,
+          "angle_of_impact_deg": 79.4,
+          "wind_correct_10ms_cross_mil": 39,
+          "wind_correct_10ms_long_m": 527
+        },
+        "12000": {
+          "elev_mil": 1221,
+          "time_of_flight_sec": 93.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10627,
+          "angle_of_impact_deg": 78.7,
+          "wind_correct_10ms_cross_mil": 36,
+          "wind_correct_10ms_long_m": 530
+        },
+        "12200": {
+          "elev_mil": 1213,
+          "time_of_flight_sec": 92.8,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10573,
+          "angle_of_impact_deg": 78.4,
+          "wind_correct_10ms_cross_mil": 36,
+          "wind_correct_10ms_long_m": 531
+        },
+        "12400": {
+          "elev_mil": 1205,
+          "time_of_flight_sec": 92.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10505,
+          "angle_of_impact_deg": 78.7,
+          "wind_correct_10ms_cross_mil": 37,
+          "wind_correct_10ms_long_m": 530
+        },
+        "12600": {
+          "elev_mil": 1197,
+          "time_of_flight_sec": 92.2,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10446,
+          "angle_of_impact_deg": 78.5,
+          "wind_correct_10ms_cross_mil": 36,
+          "wind_correct_10ms_long_m": 530
+        },
+        "12800": {
+          "elev_mil": 1188,
+          "time_of_flight_sec": 91.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10376,
+          "angle_of_impact_deg": 78.7,
+          "wind_correct_10ms_cross_mil": 37,
+          "wind_correct_10ms_long_m": 530
+        },
+        "13000": {
+          "elev_mil": 1180,
+          "time_of_flight_sec": 91.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10314,
+          "angle_of_impact_deg": 78.5,
+          "wind_correct_10ms_cross_mil": 36,
+          "wind_correct_10ms_long_m": 531
+        },
+        "13200": {
+          "elev_mil": 1171,
+          "time_of_flight_sec": 91.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10244,
+          "angle_of_impact_deg": 77.7,
+          "wind_correct_10ms_cross_mil": 34,
+          "wind_correct_10ms_long_m": 533
+        },
+        "13400": {
+          "elev_mil": 1162,
+          "time_of_flight_sec": 90.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10174,
+          "angle_of_impact_deg": 77.5,
+          "wind_correct_10ms_cross_mil": 33,
+          "wind_correct_10ms_long_m": 533
+        },
+        "13600": {
+          "elev_mil": 1153,
+          "time_of_flight_sec": 90.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10102,
+          "angle_of_impact_deg": 77.2,
+          "wind_correct_10ms_cross_mil": 33,
+          "wind_correct_10ms_long_m": 534
+        },
+        "13800": {
+          "elev_mil": 1144,
+          "time_of_flight_sec": 90.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10026,
+          "angle_of_impact_deg": 76.9,
+          "wind_correct_10ms_cross_mil": 32,
+          "wind_correct_10ms_long_m": 534
+        },
+        "14000": {
+          "elev_mil": 1135,
+          "time_of_flight_sec": 89.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9945,
+          "angle_of_impact_deg": 77.2,
+          "wind_correct_10ms_cross_mil": 33,
+          "wind_correct_10ms_long_m": 534
+        },
+        "14200": {
+          "elev_mil": 1125,
+          "time_of_flight_sec": 89.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9861,
+          "angle_of_impact_deg": 76.9,
+          "wind_correct_10ms_cross_mil": 32,
+          "wind_correct_10ms_long_m": 534
+        },
+        "14400": {
+          "elev_mil": 1116,
+          "time_of_flight_sec": 89.1,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9785,
+          "angle_of_impact_deg": 76.1,
+          "wind_correct_10ms_cross_mil": 30,
+          "wind_correct_10ms_long_m": 535
+        },
+        "14600": {
+          "elev_mil": 1106,
+          "time_of_flight_sec": 88.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9701,
+          "angle_of_impact_deg": 75.8,
+          "wind_correct_10ms_cross_mil": 30,
+          "wind_correct_10ms_long_m": 535
+        },
+        "14800": {
+          "elev_mil": 1096,
+          "time_of_flight_sec": 88.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9612,
+          "angle_of_impact_deg": 75.5,
+          "wind_correct_10ms_cross_mil": 29,
+          "wind_correct_10ms_long_m": 535
+        },
+        "15000": {
+          "elev_mil": 1086,
+          "time_of_flight_sec": 87.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9521,
+          "angle_of_impact_deg": 75.2,
+          "wind_correct_10ms_cross_mil": 29,
+          "wind_correct_10ms_long_m": 535
+        },
+        "15200": {
+          "elev_mil": 1075,
+          "time_of_flight_sec": 87.4,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9430,
+          "angle_of_impact_deg": 75.4,
+          "wind_correct_10ms_cross_mil": 29,
+          "wind_correct_10ms_long_m": 535
+        },
+        "15400": {
+          "elev_mil": 1064,
+          "time_of_flight_sec": 86.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9325,
+          "angle_of_impact_deg": 74.5,
+          "wind_correct_10ms_cross_mil": 28,
+          "wind_correct_10ms_long_m": 534
+        },
+        "15600": {
+          "elev_mil": 1053,
+          "time_of_flight_sec": 86.4,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9220,
+          "angle_of_impact_deg": 74.1,
+          "wind_correct_10ms_cross_mil": 27,
+          "wind_correct_10ms_long_m": 533
+        },
+        "15800": {
+          "elev_mil": 1042,
+          "time_of_flight_sec": 85.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9118,
+          "angle_of_impact_deg": 73.8,
+          "wind_correct_10ms_cross_mil": 27,
+          "wind_correct_10ms_long_m": 533
+        },
+        "16000": {
+          "elev_mil": 1030,
+          "time_of_flight_sec": 85.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 9000,
+          "angle_of_impact_deg": 74,
+          "wind_correct_10ms_cross_mil": 27,
+          "wind_correct_10ms_long_m": 533
+        },
+        "16200": {
+          "elev_mil": 1018,
+          "time_of_flight_sec": 84.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 8886,
+          "angle_of_impact_deg": 73.6,
+          "wind_correct_10ms_cross_mil": 26,
+          "wind_correct_10ms_long_m": 532
+        },
+        "16400": {
+          "elev_mil": 1006,
+          "time_of_flight_sec": 84.2,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 8772,
+          "angle_of_impact_deg": 72.6,
+          "wind_correct_10ms_cross_mil": 25,
+          "wind_correct_10ms_long_m": 529
+        },
+        "16600": {
+          "elev_mil": 993,
+          "time_of_flight_sec": 83.5,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8647,
+          "angle_of_impact_deg": 72.1,
+          "wind_correct_10ms_cross_mil": 25,
+          "wind_correct_10ms_long_m": 528
+        },
+        "16800": {
+          "elev_mil": 979,
+          "time_of_flight_sec": 82.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8504,
+          "angle_of_impact_deg": 71.6,
+          "wind_correct_10ms_cross_mil": 24,
+          "wind_correct_10ms_long_m": 526
+        },
+        "17000": {
+          "elev_mil": 965,
+          "time_of_flight_sec": 82.1,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 8371,
+          "angle_of_impact_deg": 71.8,
+          "wind_correct_10ms_cross_mil": 24,
+          "wind_correct_10ms_long_m": 527
+        },
+        "17200": {
+          "elev_mil": 950,
+          "time_of_flight_sec": 81.4,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 8213,
+          "angle_of_impact_deg": 70.6,
+          "wind_correct_10ms_cross_mil": 23,
+          "wind_correct_10ms_long_m": 522
+        },
+        "17400": {
+          "elev_mil": 935,
+          "time_of_flight_sec": 80.5,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 8055,
+          "angle_of_impact_deg": 70,
+          "wind_correct_10ms_cross_mil": 23,
+          "wind_correct_10ms_long_m": 510
+        },
+        "17600": {
+          "elev_mil": 918,
+          "time_of_flight_sec": 79.7,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 7885,
+          "angle_of_impact_deg": 70.1,
+          "wind_correct_10ms_cross_mil": 23,
+          "wind_correct_10ms_long_m": 565
+        },
+        "17800": {
+          "elev_mil": 901,
+          "time_of_flight_sec": 78.7,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 7701,
+          "angle_of_impact_deg": 68.7,
+          "wind_correct_10ms_cross_mil": 22,
+          "wind_correct_10ms_long_m": 359
+        },
+        "18000": {
+          "elev_mil": 881,
+          "time_of_flight_sec": 77.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 7488,
+          "angle_of_impact_deg": 67.6,
+          "wind_correct_10ms_cross_mil": 21,
+          "wind_correct_10ms_long_m": 252
+        }
+      }
+    }
+  },
+  "Low angle": {
+    "1": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 21,
+      "data": {
+        "200": {
+          "elev_mil": 18,
+          "time_of_flight_sec": 0.9,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1,
+          "angle_of_impact_deg": 1,
+          "wind_correct_10ms_cross_mil": 0,
+          "wind_correct_10ms_long_m": 0
+        },
+        "300": {
+          "elev_mil": 27,
+          "time_of_flight_sec": 1.3,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2,
+          "angle_of_impact_deg": 1.5,
+          "wind_correct_10ms_cross_mil": 0,
+          "wind_correct_10ms_long_m": 0
+        },
+        "400": {
+          "elev_mil": 36,
+          "time_of_flight_sec": 1.7,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 4,
+          "angle_of_impact_deg": 2,
+          "wind_correct_10ms_cross_mil": 0,
+          "wind_correct_10ms_long_m": 0
+        },
+        "500": {
+          "elev_mil": 45,
+          "time_of_flight_sec": 2.2,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 6,
+          "angle_of_impact_deg": 2.6,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 1
+        },
+        "600": {
+          "elev_mil": 54,
+          "time_of_flight_sec": 2.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 8,
+          "angle_of_impact_deg": 4.2,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 2
+        },
+        "700": {
+          "elev_mil": 63,
+          "time_of_flight_sec": 3.0,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 11,
+          "angle_of_impact_deg": 4.7,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 2
+        },
+        "800": {
+          "elev_mil": 73,
+          "time_of_flight_sec": 3.4,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 15,
+          "angle_of_impact_deg": 4.2,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 2
+        },
+        "900": {
+          "elev_mil": 82,
+          "time_of_flight_sec": 3.9,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 19,
+          "angle_of_impact_deg": 4.7,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 2
+        },
+        "1000": {
+          "elev_mil": 91,
+          "time_of_flight_sec": 4.3,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 23,
+          "angle_of_impact_deg": 5.3,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 3
+        },
+        "1100": {
+          "elev_mil": 100,
+          "time_of_flight_sec": 4.7,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 28,
+          "angle_of_impact_deg": 5.8,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 3
+        },
+        "1200": {
+          "elev_mil": 110,
+          "time_of_flight_sec": 5.2,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 33,
+          "angle_of_impact_deg": 7.5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 5
+        },
+        "1300": {
+          "elev_mil": 119,
+          "time_of_flight_sec": 5.7,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 38,
+          "angle_of_impact_deg": 8,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 5
+        },
+        "1400": {
+          "elev_mil": 129,
+          "time_of_flight_sec": 6.1,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 46,
+          "angle_of_impact_deg": 7.6,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 5
+        },
+        "1500": {
+          "elev_mil": 139,
+          "time_of_flight_sec": 6.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 53,
+          "angle_of_impact_deg": 8.2,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 6
+        },
+        "1600": {
+          "elev_mil": 149,
+          "time_of_flight_sec": 7.0,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 61,
+          "angle_of_impact_deg": 8.8,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 6
+        },
+        "1700": {
+          "elev_mil": 159,
+          "time_of_flight_sec": 7.5,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 69,
+          "angle_of_impact_deg": 9.5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 7
+        },
+        "1800": {
+          "elev_mil": 170,
+          "time_of_flight_sec": 8.0,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 78,
+          "angle_of_impact_deg": 11.3,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 10
+        },
+        "1900": {
+          "elev_mil": 180,
+          "time_of_flight_sec": 8.5,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 87,
+          "angle_of_impact_deg": 10.7,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 9
+        },
+        "2000": {
+          "elev_mil": 191,
+          "time_of_flight_sec": 8.9,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 98,
+          "angle_of_impact_deg": 11.5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 10
+        },
+        "2100": {
+          "elev_mil": 201,
+          "time_of_flight_sec": 9.4,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 109,
+          "angle_of_impact_deg": 11,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 9
+        },
+        "2200": {
+          "elev_mil": 212,
+          "time_of_flight_sec": 9.9,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 121,
+          "angle_of_impact_deg": 11.7,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 10
+        },
+        "2300": {
+          "elev_mil": 223,
+          "time_of_flight_sec": 10.4,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 133,
+          "angle_of_impact_deg": 13.6,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 13
+        },
+        "2400": {
+          "elev_mil": 235,
+          "time_of_flight_sec": 10.9,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 147,
+          "angle_of_impact_deg": 14.3,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 15
+        },
+        "2500": {
+          "elev_mil": 246,
+          "time_of_flight_sec": 11.5,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 161,
+          "angle_of_impact_deg": 15,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 16
+        },
+        "2600": {
+          "elev_mil": 258,
+          "time_of_flight_sec": 12.0,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 176,
+          "angle_of_impact_deg": 17,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 19
+        },
+        "2700": {
+          "elev_mil": 270,
+          "time_of_flight_sec": 12.5,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 192,
+          "angle_of_impact_deg": 16.6,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 19
+        },
+        "2800": {
+          "elev_mil": 283,
+          "time_of_flight_sec": 13.1,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 210,
+          "angle_of_impact_deg": 17.5,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 20
+        },
+        "2900": {
+          "elev_mil": 295,
+          "time_of_flight_sec": 13.6,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 227,
+          "angle_of_impact_deg": 18.2,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 22
+        },
+        "3000": {
+          "elev_mil": 308,
+          "time_of_flight_sec": 14.2,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 245,
+          "angle_of_impact_deg": 20.2,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 25
+        },
+        "3100": {
+          "elev_mil": 321,
+          "time_of_flight_sec": 14.7,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 267,
+          "angle_of_impact_deg": 19.9,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 25
+        },
+        "3200": {
+          "elev_mil": 335,
+          "time_of_flight_sec": 15.3,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 288,
+          "angle_of_impact_deg": 20.8,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 27
+        },
+        "3300": {
+          "elev_mil": 349,
+          "time_of_flight_sec": 15.9,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 312,
+          "angle_of_impact_deg": 21.8,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 28
+        },
+        "3400": {
+          "elev_mil": 364,
+          "time_of_flight_sec": 16.6,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 337,
+          "angle_of_impact_deg": 23.9,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 33
+        },
+        "3500": {
+          "elev_mil": 379,
+          "time_of_flight_sec": 17.2,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 363,
+          "angle_of_impact_deg": 23.7,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 32
+        },
+        "3600": {
+          "elev_mil": 394,
+          "time_of_flight_sec": 17.8,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 391,
+          "angle_of_impact_deg": 23.7,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 32
+        },
+        "3700": {
+          "elev_mil": 410,
+          "time_of_flight_sec": 18.5,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 421,
+          "angle_of_impact_deg": 25.9,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 37
+        },
+        "3800": {
+          "elev_mil": 427,
+          "time_of_flight_sec": 19.2,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 452,
+          "angle_of_impact_deg": 27,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 39
+        },
+        "3900": {
+          "elev_mil": 445,
+          "time_of_flight_sec": 19.9,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 488,
+          "angle_of_impact_deg": 29.3,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 44
+        },
+        "4000": {
+          "elev_mil": 464,
+          "time_of_flight_sec": 20.7,
+          "d_elev_per_100m_dr_mil": 10,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 525,
+          "angle_of_impact_deg": 29.4,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 44
+        }
+      }
+    },
+    "2": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 53,
+      "data": {
+        "600": {
+          "elev_mil": 32,
+          "time_of_flight_sec": 2.0,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 5,
+          "angle_of_impact_deg": 1.8,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 1
+        },
+        "800": {
+          "elev_mil": 43,
+          "time_of_flight_sec": 2.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 9,
+          "angle_of_impact_deg": 2.5,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 1
+        },
+        "1000": {
+          "elev_mil": 54,
+          "time_of_flight_sec": 3.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 14,
+          "angle_of_impact_deg": 4.2,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 3
+        },
+        "1200": {
+          "elev_mil": 66,
+          "time_of_flight_sec": 4.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 19,
+          "angle_of_impact_deg": 5,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 4
+        },
+        "1400": {
+          "elev_mil": 77,
+          "time_of_flight_sec": 4.7,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 28,
+          "angle_of_impact_deg": 4.5,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 4
+        },
+        "1600": {
+          "elev_mil": 89,
+          "time_of_flight_sec": 5.4,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 37,
+          "angle_of_impact_deg": 5.3,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 5
+        },
+        "1800": {
+          "elev_mil": 100,
+          "time_of_flight_sec": 6.1,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 46,
+          "angle_of_impact_deg": 5.9,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 6
+        },
+        "2000": {
+          "elev_mil": 112,
+          "time_of_flight_sec": 6.8,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 56,
+          "angle_of_impact_deg": 7.9,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 10
+        },
+        "2200": {
+          "elev_mil": 125,
+          "time_of_flight_sec": 7.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 71,
+          "angle_of_impact_deg": 7.6,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 9
+        },
+        "2400": {
+          "elev_mil": 137,
+          "time_of_flight_sec": 8.3,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 84,
+          "angle_of_impact_deg": 8.4,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 11
+        },
+        "2600": {
+          "elev_mil": 150,
+          "time_of_flight_sec": 9.1,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 101,
+          "angle_of_impact_deg": 9.2,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 13
+        },
+        "2800": {
+          "elev_mil": 164,
+          "time_of_flight_sec": 9.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 120,
+          "angle_of_impact_deg": 11.4,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 18
+        },
+        "3000": {
+          "elev_mil": 177,
+          "time_of_flight_sec": 10.6,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 137,
+          "angle_of_impact_deg": 12.2,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 21
+        },
+        "3200": {
+          "elev_mil": 191,
+          "time_of_flight_sec": 11.4,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 161,
+          "angle_of_impact_deg": 12,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 20
+        },
+        "3400": {
+          "elev_mil": 205,
+          "time_of_flight_sec": 12.2,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 184,
+          "angle_of_impact_deg": 11.8,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 19
+        },
+        "3600": {
+          "elev_mil": 219,
+          "time_of_flight_sec": 13.1,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 209,
+          "angle_of_impact_deg": 13.9,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 25
+        },
+        "3800": {
+          "elev_mil": 235,
+          "time_of_flight_sec": 13.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 239,
+          "angle_of_impact_deg": 15,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 28
+        },
+        "4000": {
+          "elev_mil": 250,
+          "time_of_flight_sec": 14.8,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 269,
+          "angle_of_impact_deg": 17.3,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 35
+        },
+        "4200": {
+          "elev_mil": 266,
+          "time_of_flight_sec": 15.7,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 301,
+          "angle_of_impact_deg": 18.5,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 39
+        },
+        "4400": {
+          "elev_mil": 282,
+          "time_of_flight_sec": 16.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 337,
+          "angle_of_impact_deg": 18.3,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 38
+        },
+        "4600": {
+          "elev_mil": 299,
+          "time_of_flight_sec": 17.5,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 376,
+          "angle_of_impact_deg": 19.5,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 42
+        },
+        "4800": {
+          "elev_mil": 317,
+          "time_of_flight_sec": 18.5,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 416,
+          "angle_of_impact_deg": 22,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 50
+        },
+        "5000": {
+          "elev_mil": 336,
+          "time_of_flight_sec": 19.5,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 466,
+          "angle_of_impact_deg": 22.1,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 50
+        },
+        "5200": {
+          "elev_mil": 355,
+          "time_of_flight_sec": 20.5,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 517,
+          "angle_of_impact_deg": 23.5,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 55
+        },
+        "5400": {
+          "elev_mil": 376,
+          "time_of_flight_sec": 21.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 573,
+          "angle_of_impact_deg": 25,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 60
+        },
+        "5600": {
+          "elev_mil": 397,
+          "time_of_flight_sec": 22.7,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 635,
+          "angle_of_impact_deg": 25.2,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 61
+        },
+        "5800": {
+          "elev_mil": 421,
+          "time_of_flight_sec": 23.9,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 704,
+          "angle_of_impact_deg": 28.2,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 70
+        },
+        "6000": {
+          "elev_mil": 446,
+          "time_of_flight_sec": 25.2,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 781,
+          "angle_of_impact_deg": 31.3,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 80
+        },
+        "6200": {
+          "elev_mil": 473,
+          "time_of_flight_sec": 26.5,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 866,
+          "angle_of_impact_deg": 31.9,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 82
+        },
+        "6400": {
+          "elev_mil": 503,
+          "time_of_flight_sec": 28.0,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 962,
+          "angle_of_impact_deg": 35.2,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 93
+        },
+        "6600": {
+          "elev_mil": 537,
+          "time_of_flight_sec": 29.6,
+          "d_elev_per_100m_dr_mil": 10,
+          "time_of_flight_per_100m_dr_sec": 0.5,
+          "peak_alt_m": 1078,
+          "angle_of_impact_deg": 36.3,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 96
+        },
+        "6800": {
+          "elev_mil": 578,
+          "time_of_flight_sec": 31.5,
+          "d_elev_per_100m_dr_mil": 12,
+          "time_of_flight_per_100m_dr_sec": 0.6,
+          "peak_alt_m": 1222,
+          "angle_of_impact_deg": 39.1,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 105
+        },
+        "7000": {
+          "elev_mil": 632,
+          "time_of_flight_sec": 34.0,
+          "d_elev_per_100m_dr_mil": 18,
+          "time_of_flight_per_100m_dr_sec": 0.7,
+          "peak_alt_m": 1418,
+          "angle_of_impact_deg": 42.6,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 115
+        }
+      }
+    },
+    "3": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 83,
+      "data": {
+        "1000": {
+          "elev_mil": 28,
+          "time_of_flight_sec": 2.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 8,
+          "angle_of_impact_deg": 1.6,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 2
+        },
+        "1200": {
+          "elev_mil": 33,
+          "time_of_flight_sec": 2.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 10,
+          "angle_of_impact_deg": 1.9,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 2
+        },
+        "1400": {
+          "elev_mil": 39,
+          "time_of_flight_sec": 3.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 15,
+          "angle_of_impact_deg": 2.3,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 3
+        },
+        "1600": {
+          "elev_mil": 44,
+          "time_of_flight_sec": 3.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 19,
+          "angle_of_impact_deg": 2.6,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 4
+        },
+        "1800": {
+          "elev_mil": 50,
+          "time_of_flight_sec": 4.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 24,
+          "angle_of_impact_deg": 3,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 5
+        },
+        "2000": {
+          "elev_mil": 56,
+          "time_of_flight_sec": 4.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 29,
+          "angle_of_impact_deg": 4.6,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 9
+        },
+        "2200": {
+          "elev_mil": 62,
+          "time_of_flight_sec": 5.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 34,
+          "angle_of_impact_deg": 5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 10
+        },
+        "2400": {
+          "elev_mil": 68,
+          "time_of_flight_sec": 5.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 39,
+          "angle_of_impact_deg": 5.4,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 12
+        },
+        "2600": {
+          "elev_mil": 74,
+          "time_of_flight_sec": 6.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 50,
+          "angle_of_impact_deg": 4.5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 9
+        },
+        "2800": {
+          "elev_mil": 80,
+          "time_of_flight_sec": 6.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 58,
+          "angle_of_impact_deg": 5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 11
+        },
+        "3000": {
+          "elev_mil": 87,
+          "time_of_flight_sec": 7.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 69,
+          "angle_of_impact_deg": 5.5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 12
+        },
+        "3200": {
+          "elev_mil": 93,
+          "time_of_flight_sec": 7.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 78,
+          "angle_of_impact_deg": 5.9,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 14
+        },
+        "3400": {
+          "elev_mil": 100,
+          "time_of_flight_sec": 8.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 90,
+          "angle_of_impact_deg": 6.3,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 16
+        },
+        "3600": {
+          "elev_mil": 106,
+          "time_of_flight_sec": 9.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 99,
+          "angle_of_impact_deg": 6.7,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 17
+        },
+        "3800": {
+          "elev_mil": 113,
+          "time_of_flight_sec": 9.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 111,
+          "angle_of_impact_deg": 8.4,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 25
+        },
+        "4000": {
+          "elev_mil": 120,
+          "time_of_flight_sec": 10.2,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 122,
+          "angle_of_impact_deg": 8.9,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 27
+        },
+        "4200": {
+          "elev_mil": 127,
+          "time_of_flight_sec": 10.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 142,
+          "angle_of_impact_deg": 8.2,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 24
+        },
+        "4400": {
+          "elev_mil": 134,
+          "time_of_flight_sec": 11.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 157,
+          "angle_of_impact_deg": 8.7,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 26
+        },
+        "4600": {
+          "elev_mil": 142,
+          "time_of_flight_sec": 11.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 174,
+          "angle_of_impact_deg": 9.3,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 29
+        },
+        "4800": {
+          "elev_mil": 149,
+          "time_of_flight_sec": 12.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 192,
+          "angle_of_impact_deg": 9.8,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 31
+        },
+        "5000": {
+          "elev_mil": 157,
+          "time_of_flight_sec": 13.1,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 212,
+          "angle_of_impact_deg": 10.5,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 34
+        },
+        "5200": {
+          "elev_mil": 165,
+          "time_of_flight_sec": 13.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 233,
+          "angle_of_impact_deg": 12.4,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 44
+        },
+        "5400": {
+          "elev_mil": 173,
+          "time_of_flight_sec": 14.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 253,
+          "angle_of_impact_deg": 13.1,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 47
+        },
+        "5600": {
+          "elev_mil": 181,
+          "time_of_flight_sec": 15.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 276,
+          "angle_of_impact_deg": 12.3,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 43
+        },
+        "5800": {
+          "elev_mil": 189,
+          "time_of_flight_sec": 15.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 301,
+          "angle_of_impact_deg": 12.9,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 46
+        },
+        "6000": {
+          "elev_mil": 197,
+          "time_of_flight_sec": 16.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 325,
+          "angle_of_impact_deg": 12.2,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 43
+        },
+        "6200": {
+          "elev_mil": 206,
+          "time_of_flight_sec": 17.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 355,
+          "angle_of_impact_deg": 12.9,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 46
+        },
+        "6400": {
+          "elev_mil": 215,
+          "time_of_flight_sec": 17.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 384,
+          "angle_of_impact_deg": 15,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 57
+        },
+        "6600": {
+          "elev_mil": 224,
+          "time_of_flight_sec": 18.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 414,
+          "angle_of_impact_deg": 15.7,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 60
+        },
+        "6800": {
+          "elev_mil": 233,
+          "time_of_flight_sec": 19.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 444,
+          "angle_of_impact_deg": 16.4,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 64
+        },
+        "7000": {
+          "elev_mil": 243,
+          "time_of_flight_sec": 19.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 482,
+          "angle_of_impact_deg": 17.2,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 68
+        },
+        "7200": {
+          "elev_mil": 252,
+          "time_of_flight_sec": 20.5,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 515,
+          "angle_of_impact_deg": 19.4,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 80
+        },
+        "7400": {
+          "elev_mil": 262,
+          "time_of_flight_sec": 21.2,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 552,
+          "angle_of_impact_deg": 20.2,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 84
+        },
+        "7600": {
+          "elev_mil": 273,
+          "time_of_flight_sec": 22.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 595,
+          "angle_of_impact_deg": 19.6,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 81
+        },
+        "7800": {
+          "elev_mil": 283,
+          "time_of_flight_sec": 22.7,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 636,
+          "angle_of_impact_deg": 20.5,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 85
+        },
+        "8000": {
+          "elev_mil": 294,
+          "time_of_flight_sec": 23.5,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 681,
+          "angle_of_impact_deg": 21.4,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 90
+        },
+        "8200": {
+          "elev_mil": 306,
+          "time_of_flight_sec": 24.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 730,
+          "angle_of_impact_deg": 23.8,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 102
+        },
+        "8400": {
+          "elev_mil": 317,
+          "time_of_flight_sec": 25.2,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 775,
+          "angle_of_impact_deg": 24.6,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 107
+        },
+        "8600": {
+          "elev_mil": 329,
+          "time_of_flight_sec": 26.0,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 834,
+          "angle_of_impact_deg": 24.2,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 105
+        },
+        "8800": {
+          "elev_mil": 342,
+          "time_of_flight_sec": 26.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 893,
+          "angle_of_impact_deg": 25.3,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 110
+        },
+        "9000": {
+          "elev_mil": 355,
+          "time_of_flight_sec": 27.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 955,
+          "angle_of_impact_deg": 26.4,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 116
+        },
+        "9200": {
+          "elev_mil": 368,
+          "time_of_flight_sec": 28.8,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1018,
+          "angle_of_impact_deg": 28.9,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 130
+        },
+        "9400": {
+          "elev_mil": 383,
+          "time_of_flight_sec": 29.7,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1091,
+          "angle_of_impact_deg": 28.6,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 128
+        },
+        "9600": {
+          "elev_mil": 398,
+          "time_of_flight_sec": 30.7,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1171,
+          "angle_of_impact_deg": 28.5,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 127
+        },
+        "9800": {
+          "elev_mil": 413,
+          "time_of_flight_sec": 31.8,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1247,
+          "angle_of_impact_deg": 31.1,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 141
+        },
+        "10000": {
+          "elev_mil": 430,
+          "time_of_flight_sec": 32.9,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1335,
+          "angle_of_impact_deg": 32.5,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 148
+        },
+        "10200": {
+          "elev_mil": 448,
+          "time_of_flight_sec": 34.1,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1435,
+          "angle_of_impact_deg": 35.3,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 163
+        },
+        "10400": {
+          "elev_mil": 467,
+          "time_of_flight_sec": 35.3,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1537,
+          "angle_of_impact_deg": 35.4,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 163
+        },
+        "10600": {
+          "elev_mil": 488,
+          "time_of_flight_sec": 36.6,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 1657,
+          "angle_of_impact_deg": 37,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 172
+        },
+        "10800": {
+          "elev_mil": 511,
+          "time_of_flight_sec": 38.0,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 1784,
+          "angle_of_impact_deg": 40.1,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 187
+        },
+        "11000": {
+          "elev_mil": 537,
+          "time_of_flight_sec": 39.6,
+          "d_elev_per_100m_dr_mil": 7,
+          "time_of_flight_per_100m_dr_sec": 0.5,
+          "peak_alt_m": 1941,
+          "angle_of_impact_deg": 40.6,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 190
+        },
+        "11200": {
+          "elev_mil": 567,
+          "time_of_flight_sec": 41.5,
+          "d_elev_per_100m_dr_mil": 9,
+          "time_of_flight_per_100m_dr_sec": 0.5,
+          "peak_alt_m": 2125,
+          "angle_of_impact_deg": 44.2,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 208
+        },
+        "11400": {
+          "elev_mil": 606,
+          "time_of_flight_sec": 43.7,
+          "d_elev_per_100m_dr_mil": 11,
+          "time_of_flight_per_100m_dr_sec": 0.7,
+          "peak_alt_m": 2366,
+          "angle_of_impact_deg": 46.8,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 221
+        },
+        "11600": {
+          "elev_mil": 664,
+          "time_of_flight_sec": 47.0,
+          "d_elev_per_100m_dr_mil": 28,
+          "time_of_flight_per_100m_dr_sec": 1.5,
+          "peak_alt_m": 2725,
+          "angle_of_impact_deg": 50.5,
+          "wind_correct_10ms_cross_mil": 12,
+          "wind_correct_10ms_long_m": 238
+        }
+      }
+    },
+    "4": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 69,
+      "data": {
+        "1600": {
+          "elev_mil": 27,
+          "time_of_flight_sec": 3.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 12,
+          "angle_of_impact_deg": 1.6,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 3
+        },
+        "1800": {
+          "elev_mil": 31,
+          "time_of_flight_sec": 3.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 15,
+          "angle_of_impact_deg": 1.9,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 4
+        },
+        "2000": {
+          "elev_mil": 34,
+          "time_of_flight_sec": 3.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 18,
+          "angle_of_impact_deg": 2.1,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 4
+        },
+        "2200": {
+          "elev_mil": 38,
+          "time_of_flight_sec": 4.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 22,
+          "angle_of_impact_deg": 2.3,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 5
+        },
+        "2400": {
+          "elev_mil": 42,
+          "time_of_flight_sec": 4.6,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 27,
+          "angle_of_impact_deg": 2.6,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 6
+        },
+        "2600": {
+          "elev_mil": 46,
+          "time_of_flight_sec": 5.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 32,
+          "angle_of_impact_deg": 2.9,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 8
+        },
+        "2800": {
+          "elev_mil": 49,
+          "time_of_flight_sec": 5.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 36,
+          "angle_of_impact_deg": 3.1,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 8
+        },
+        "3000": {
+          "elev_mil": 53,
+          "time_of_flight_sec": 5.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 42,
+          "angle_of_impact_deg": 4.6,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 16
+        },
+        "3200": {
+          "elev_mil": 57,
+          "time_of_flight_sec": 6.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 47,
+          "angle_of_impact_deg": 4.8,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 17
+        },
+        "3400": {
+          "elev_mil": 61,
+          "time_of_flight_sec": 6.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 52,
+          "angle_of_impact_deg": 5.1,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 19
+        },
+        "3600": {
+          "elev_mil": 66,
+          "time_of_flight_sec": 7.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 59,
+          "angle_of_impact_deg": 5.5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 21
+        },
+        "3800": {
+          "elev_mil": 70,
+          "time_of_flight_sec": 7.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 64,
+          "angle_of_impact_deg": 5.8,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 22
+        },
+        "4000": {
+          "elev_mil": 74,
+          "time_of_flight_sec": 8.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 79,
+          "angle_of_impact_deg": 4.8,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 17
+        },
+        "4200": {
+          "elev_mil": 78,
+          "time_of_flight_sec": 8.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 88,
+          "angle_of_impact_deg": 5.1,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 19
+        },
+        "4400": {
+          "elev_mil": 82,
+          "time_of_flight_sec": 8.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 96,
+          "angle_of_impact_deg": 5.4,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 21
+        },
+        "4600": {
+          "elev_mil": 87,
+          "time_of_flight_sec": 9.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 108,
+          "angle_of_impact_deg": 5.7,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 23
+        },
+        "4800": {
+          "elev_mil": 91,
+          "time_of_flight_sec": 9.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 117,
+          "angle_of_impact_deg": 6,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 25
+        },
+        "5000": {
+          "elev_mil": 96,
+          "time_of_flight_sec": 10.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 130,
+          "angle_of_impact_deg": 6.4,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 27
+        },
+        "5200": {
+          "elev_mil": 100,
+          "time_of_flight_sec": 10.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 140,
+          "angle_of_impact_deg": 6.7,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 29
+        },
+        "5400": {
+          "elev_mil": 105,
+          "time_of_flight_sec": 11.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 153,
+          "angle_of_impact_deg": 7.1,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 31
+        },
+        "5600": {
+          "elev_mil": 110,
+          "time_of_flight_sec": 11.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 165,
+          "angle_of_impact_deg": 8.9,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 42
+        },
+        "5800": {
+          "elev_mil": 115,
+          "time_of_flight_sec": 12.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 178,
+          "angle_of_impact_deg": 9.3,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 45
+        },
+        "6000": {
+          "elev_mil": 120,
+          "time_of_flight_sec": 12.6,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 191,
+          "angle_of_impact_deg": 9.7,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 47
+        },
+        "6200": {
+          "elev_mil": 125,
+          "time_of_flight_sec": 13.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 213,
+          "angle_of_impact_deg": 8.7,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 41
+        },
+        "6400": {
+          "elev_mil": 130,
+          "time_of_flight_sec": 13.6,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 230,
+          "angle_of_impact_deg": 9.1,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 44
+        },
+        "6600": {
+          "elev_mil": 135,
+          "time_of_flight_sec": 14.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 246,
+          "angle_of_impact_deg": 9.5,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 46
+        },
+        "6800": {
+          "elev_mil": 140,
+          "time_of_flight_sec": 14.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 263,
+          "angle_of_impact_deg": 9.9,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 49
+        },
+        "7000": {
+          "elev_mil": 146,
+          "time_of_flight_sec": 15.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 284,
+          "angle_of_impact_deg": 10.4,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 52
+        },
+        "7200": {
+          "elev_mil": 151,
+          "time_of_flight_sec": 15.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 304,
+          "angle_of_impact_deg": 10.8,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 55
+        },
+        "7400": {
+          "elev_mil": 157,
+          "time_of_flight_sec": 16.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 327,
+          "angle_of_impact_deg": 11.3,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 59
+        },
+        "7600": {
+          "elev_mil": 163,
+          "time_of_flight_sec": 16.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 350,
+          "angle_of_impact_deg": 13.3,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 72
+        },
+        "7800": {
+          "elev_mil": 169,
+          "time_of_flight_sec": 17.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 373,
+          "angle_of_impact_deg": 13.9,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 76
+        },
+        "8000": {
+          "elev_mil": 174,
+          "time_of_flight_sec": 17.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 392,
+          "angle_of_impact_deg": 14.3,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 79
+        },
+        "8200": {
+          "elev_mil": 181,
+          "time_of_flight_sec": 18.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 423,
+          "angle_of_impact_deg": 13.3,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 76
+        },
+        "8400": {
+          "elev_mil": 187,
+          "time_of_flight_sec": 19.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 450,
+          "angle_of_impact_deg": 13.9,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 76
+        },
+        "8600": {
+          "elev_mil": 193,
+          "time_of_flight_sec": 19.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 478,
+          "angle_of_impact_deg": 14.4,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 80
+        },
+        "8800": {
+          "elev_mil": 199,
+          "time_of_flight_sec": 20.3,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 506,
+          "angle_of_impact_deg": 13.4,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 73
+        },
+        "9000": {
+          "elev_mil": 206,
+          "time_of_flight_sec": 20.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 540,
+          "angle_of_impact_deg": 14.1,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 77
+        },
+        "9200": {
+          "elev_mil": 213,
+          "time_of_flight_sec": 21.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 574,
+          "angle_of_impact_deg": 16.2,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 92
+        },
+        "9400": {
+          "elev_mil": 220,
+          "time_of_flight_sec": 22.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 608,
+          "angle_of_impact_deg": 16.9,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 96
+        },
+        "9600": {
+          "elev_mil": 227,
+          "time_of_flight_sec": 22.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 642,
+          "angle_of_impact_deg": 17.5,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 100
+        },
+        "9800": {
+          "elev_mil": 234,
+          "time_of_flight_sec": 23.4,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 678,
+          "angle_of_impact_deg": 18.1,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 105
+        },
+        "10000": {
+          "elev_mil": 241,
+          "time_of_flight_sec": 24.1,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 716,
+          "angle_of_impact_deg": 18.8,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 109
+        },
+        "10200": {
+          "elev_mil": 249,
+          "time_of_flight_sec": 24.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 760,
+          "angle_of_impact_deg": 21.1,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 125
+        },
+        "10400": {
+          "elev_mil": 256,
+          "time_of_flight_sec": 25.4,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 798,
+          "angle_of_impact_deg": 21.8,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 130
+        },
+        "10600": {
+          "elev_mil": 264,
+          "time_of_flight_sec": 26.1,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 842,
+          "angle_of_impact_deg": 22.5,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 135
+        },
+        "10800": {
+          "elev_mil": 272,
+          "time_of_flight_sec": 26.8,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 887,
+          "angle_of_impact_deg": 21.6,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 128
+        },
+        "11000": {
+          "elev_mil": 281,
+          "time_of_flight_sec": 27.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 941,
+          "angle_of_impact_deg": 22.4,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 134
+        },
+        "11200": {
+          "elev_mil": 289,
+          "time_of_flight_sec": 28.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 989,
+          "angle_of_impact_deg": 23.2,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 139
+        },
+        "11400": {
+          "elev_mil": 298,
+          "time_of_flight_sec": 29.0,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1042,
+          "angle_of_impact_deg": 24,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 144
+        },
+        "11600": {
+          "elev_mil": 307,
+          "time_of_flight_sec": 29.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1095,
+          "angle_of_impact_deg": 26.4,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 160
+        },
+        "11800": {
+          "elev_mil": 317,
+          "time_of_flight_sec": 30.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1154,
+          "angle_of_impact_deg": 27.3,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 166
+        },
+        "12000": {
+          "elev_mil": 326,
+          "time_of_flight_sec": 31.4,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1220,
+          "angle_of_impact_deg": 26.6,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 161
+        },
+        "12200": {
+          "elev_mil": 336,
+          "time_of_flight_sec": 32.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1283,
+          "angle_of_impact_deg": 27.4,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 167
+        },
+        "12400": {
+          "elev_mil": 347,
+          "time_of_flight_sec": 33.1,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1358,
+          "angle_of_impact_deg": 28.5,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 174
+        },
+        "12600": {
+          "elev_mil": 358,
+          "time_of_flight_sec": 34.0,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1435,
+          "angle_of_impact_deg": 31.1,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 191
+        },
+        "12800": {
+          "elev_mil": 369,
+          "time_of_flight_sec": 34.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1511,
+          "angle_of_impact_deg": 32.2,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 198
+        },
+        "13000": {
+          "elev_mil": 381,
+          "time_of_flight_sec": 35.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1593,
+          "angle_of_impact_deg": 31.5,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 194
+        },
+        "13200": {
+          "elev_mil": 393,
+          "time_of_flight_sec": 36.8,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1685,
+          "angle_of_impact_deg": 31.1,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 192
+        },
+        "13400": {
+          "elev_mil": 406,
+          "time_of_flight_sec": 37.8,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1779,
+          "angle_of_impact_deg": 32.2,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 199
+        },
+        "13600": {
+          "elev_mil": 420,
+          "time_of_flight_sec": 38.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1881,
+          "angle_of_impact_deg": 35,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 217
+        },
+        "13800": {
+          "elev_mil": 434,
+          "time_of_flight_sec": 40.0,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 1986,
+          "angle_of_impact_deg": 36.2,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 225
+        },
+        "14000": {
+          "elev_mil": 450,
+          "time_of_flight_sec": 41.2,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2112,
+          "angle_of_impact_deg": 39.1,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 244
+        },
+        "14200": {
+          "elev_mil": 467,
+          "time_of_flight_sec": 42.4,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 2240,
+          "angle_of_impact_deg": 39,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 243
+        },
+        "14400": {
+          "elev_mil": 485,
+          "time_of_flight_sec": 43.8,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2385,
+          "angle_of_impact_deg": 40.5,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 253
+        },
+        "14600": {
+          "elev_mil": 505,
+          "time_of_flight_sec": 45.2,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 2540,
+          "angle_of_impact_deg": 43.5,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 272
+        },
+        "14800": {
+          "elev_mil": 527,
+          "time_of_flight_sec": 46.8,
+          "d_elev_per_100m_dr_mil": 6,
+          "time_of_flight_per_100m_dr_sec": 0.5,
+          "peak_alt_m": 2724,
+          "angle_of_impact_deg": 43.8,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 274
+        },
+        "15000": {
+          "elev_mil": 553,
+          "time_of_flight_sec": 48.7,
+          "d_elev_per_100m_dr_mil": 8,
+          "time_of_flight_per_100m_dr_sec": 0.5,
+          "peak_alt_m": 2943,
+          "angle_of_impact_deg": 47.1,
+          "wind_correct_10ms_cross_mil": 12,
+          "wind_correct_10ms_long_m": 295
+        }
+      }
+    },
+    "5": {
+      "weapon": "M107",
+      "type": "HE",
+      "average_dispersion_m": 69,
+      "data": {
+        "2000": {
+          "elev_mil": 23,
+          "time_of_flight_sec": 3.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 13,
+          "angle_of_impact_deg": 1.4,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 4
+        },
+        "2200": {
+          "elev_mil": 25,
+          "time_of_flight_sec": 3.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 16,
+          "angle_of_impact_deg": 1.6,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 5
+        },
+        "2400": {
+          "elev_mil": 28,
+          "time_of_flight_sec": 3.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 19,
+          "angle_of_impact_deg": 1.7,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 5
+        },
+        "2600": {
+          "elev_mil": 31,
+          "time_of_flight_sec": 4.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 22,
+          "angle_of_impact_deg": 1.9,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 6
+        },
+        "2800": {
+          "elev_mil": 33,
+          "time_of_flight_sec": 4.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 25,
+          "angle_of_impact_deg": 2.1,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 7
+        },
+        "3000": {
+          "elev_mil": 36,
+          "time_of_flight_sec": 4.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 28,
+          "angle_of_impact_deg": 2.3,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 8
+        },
+        "3200": {
+          "elev_mil": 38,
+          "time_of_flight_sec": 5.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 32,
+          "angle_of_impact_deg": 2.4,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 9
+        },
+        "3400": {
+          "elev_mil": 41,
+          "time_of_flight_sec": 5.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 38,
+          "angle_of_impact_deg": 2.6,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 10
+        },
+        "3600": {
+          "elev_mil": 44,
+          "time_of_flight_sec": 5.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 43,
+          "angle_of_impact_deg": 2.8,
+          "wind_correct_10ms_cross_mil": 1,
+          "wind_correct_10ms_long_m": 12
+        },
+        "3800": {
+          "elev_mil": 47,
+          "time_of_flight_sec": 6.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 49,
+          "angle_of_impact_deg": 3,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 13
+        },
+        "4000": {
+          "elev_mil": 49,
+          "time_of_flight_sec": 6.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 53,
+          "angle_of_impact_deg": 3.2,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 14
+        },
+        "4200": {
+          "elev_mil": 52,
+          "time_of_flight_sec": 6.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 59,
+          "angle_of_impact_deg": 3.4,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 15
+        },
+        "4400": {
+          "elev_mil": 55,
+          "time_of_flight_sec": 7.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 64,
+          "angle_of_impact_deg": 5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 27
+        },
+        "4600": {
+          "elev_mil": 58,
+          "time_of_flight_sec": 7.6,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 70,
+          "angle_of_impact_deg": 5.2,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 29
+        },
+        "4800": {
+          "elev_mil": 61,
+          "time_of_flight_sec": 8.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 76,
+          "angle_of_impact_deg": 5.5,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 30
+        },
+        "5000": {
+          "elev_mil": 64,
+          "time_of_flight_sec": 8.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 81,
+          "angle_of_impact_deg": 5.7,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 32
+        },
+        "5200": {
+          "elev_mil": 67,
+          "time_of_flight_sec": 8.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 87,
+          "angle_of_impact_deg": 5.9,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 34
+        },
+        "5400": {
+          "elev_mil": 70,
+          "time_of_flight_sec": 9.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 93,
+          "angle_of_impact_deg": 6.2,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 36
+        },
+        "5600": {
+          "elev_mil": 73,
+          "time_of_flight_sec": 9.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 110,
+          "angle_of_impact_deg": 5,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 27
+        },
+        "5800": {
+          "elev_mil": 77,
+          "time_of_flight_sec": 9.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 123,
+          "angle_of_impact_deg": 5.3,
+          "wind_correct_10ms_cross_mil": 2,
+          "wind_correct_10ms_long_m": 30
+        },
+        "6000": {
+          "elev_mil": 80,
+          "time_of_flight_sec": 10.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 132,
+          "angle_of_impact_deg": 5.5,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 32
+        },
+        "6200": {
+          "elev_mil": 83,
+          "time_of_flight_sec": 10.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 142,
+          "angle_of_impact_deg": 5.8,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 34
+        },
+        "6400": {
+          "elev_mil": 87,
+          "time_of_flight_sec": 11.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 155,
+          "angle_of_impact_deg": 6.1,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 36
+        },
+        "6600": {
+          "elev_mil": 90,
+          "time_of_flight_sec": 11.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 165,
+          "angle_of_impact_deg": 6.4,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 38
+        },
+        "6800": {
+          "elev_mil": 93,
+          "time_of_flight_sec": 12.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 175,
+          "angle_of_impact_deg": 6.6,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 40
+        },
+        "7000": {
+          "elev_mil": 97,
+          "time_of_flight_sec": 12.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 190,
+          "angle_of_impact_deg": 6.9,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 43
+        },
+        "7200": {
+          "elev_mil": 101,
+          "time_of_flight_sec": 12.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 204,
+          "angle_of_impact_deg": 7.2,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 45
+        },
+        "7400": {
+          "elev_mil": 104,
+          "time_of_flight_sec": 13.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 215,
+          "angle_of_impact_deg": 7.5,
+          "wind_correct_10ms_cross_mil": 3,
+          "wind_correct_10ms_long_m": 47
+        },
+        "7600": {
+          "elev_mil": 108,
+          "time_of_flight_sec": 13.7,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 229,
+          "angle_of_impact_deg": 9.4,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 63
+        },
+        "7800": {
+          "elev_mil": 112,
+          "time_of_flight_sec": 14.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 243,
+          "angle_of_impact_deg": 9.7,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 66
+        },
+        "8000": {
+          "elev_mil": 116,
+          "time_of_flight_sec": 14.6,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 257,
+          "angle_of_impact_deg": 10,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 69
+        },
+        "8200": {
+          "elev_mil": 119,
+          "time_of_flight_sec": 15.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 268,
+          "angle_of_impact_deg": 10.3,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 71
+        },
+        "8400": {
+          "elev_mil": 123,
+          "time_of_flight_sec": 15.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 282,
+          "angle_of_impact_deg": 10.6,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 74
+        },
+        "8600": {
+          "elev_mil": 127,
+          "time_of_flight_sec": 15.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 312,
+          "angle_of_impact_deg": 9.5,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 64
+        },
+        "8800": {
+          "elev_mil": 132,
+          "time_of_flight_sec": 16.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 335,
+          "angle_of_impact_deg": 10,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 68
+        },
+        "9000": {
+          "elev_mil": 136,
+          "time_of_flight_sec": 16.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 353,
+          "angle_of_impact_deg": 10.3,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 71
+        },
+        "9200": {
+          "elev_mil": 140,
+          "time_of_flight_sec": 17.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 371,
+          "angle_of_impact_deg": 10.7,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 74
+        },
+        "9400": {
+          "elev_mil": 144,
+          "time_of_flight_sec": 17.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 391,
+          "angle_of_impact_deg": 11,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 77
+        },
+        "9600": {
+          "elev_mil": 149,
+          "time_of_flight_sec": 18.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 417,
+          "angle_of_impact_deg": 11.5,
+          "wind_correct_10ms_cross_mil": 4,
+          "wind_correct_10ms_long_m": 81
+        },
+        "9800": {
+          "elev_mil": 153,
+          "time_of_flight_sec": 18.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 438,
+          "angle_of_impact_deg": 11.9,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 84
+        },
+        "10000": {
+          "elev_mil": 158,
+          "time_of_flight_sec": 19.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 465,
+          "angle_of_impact_deg": 12.4,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 88
+        },
+        "10200": {
+          "elev_mil": 162,
+          "time_of_flight_sec": 19.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 486,
+          "angle_of_impact_deg": 14.5,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 105
+        },
+        "10400": {
+          "elev_mil": 167,
+          "time_of_flight_sec": 20.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 512,
+          "angle_of_impact_deg": 15,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 109
+        },
+        "10600": {
+          "elev_mil": 172,
+          "time_of_flight_sec": 20.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 539,
+          "angle_of_impact_deg": 15.5,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 113
+        },
+        "10800": {
+          "elev_mil": 177,
+          "time_of_flight_sec": 21.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 565,
+          "angle_of_impact_deg": 15.9,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 118
+        },
+        "11000": {
+          "elev_mil": 182,
+          "time_of_flight_sec": 22.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 598,
+          "angle_of_impact_deg": 14.7,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 107
+        },
+        "11200": {
+          "elev_mil": 187,
+          "time_of_flight_sec": 22.5,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 628,
+          "angle_of_impact_deg": 15.2,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 111
+        },
+        "11400": {
+          "elev_mil": 192,
+          "time_of_flight_sec": 23.1,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 659,
+          "angle_of_impact_deg": 15.7,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 115
+        },
+        "11600": {
+          "elev_mil": 197,
+          "time_of_flight_sec": 23.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 691,
+          "angle_of_impact_deg": 14.5,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 106
+        },
+        "11800": {
+          "elev_mil": 203,
+          "time_of_flight_sec": 24.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 730,
+          "angle_of_impact_deg": 15.1,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 110
+        },
+        "12000": {
+          "elev_mil": 208,
+          "time_of_flight_sec": 24.8,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 763,
+          "angle_of_impact_deg": 15.6,
+          "wind_correct_10ms_cross_mil": 5,
+          "wind_correct_10ms_long_m": 114
+        },
+        "12200": {
+          "elev_mil": 214,
+          "time_of_flight_sec": 25.4,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 803,
+          "angle_of_impact_deg": 18,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 133
+        },
+        "12400": {
+          "elev_mil": 220,
+          "time_of_flight_sec": 26.0,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 842,
+          "angle_of_impact_deg": 18.5,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 138
+        },
+        "12600": {
+          "elev_mil": 226,
+          "time_of_flight_sec": 26.6,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 882,
+          "angle_of_impact_deg": 19.1,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 142
+        },
+        "12800": {
+          "elev_mil": 232,
+          "time_of_flight_sec": 27.3,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 922,
+          "angle_of_impact_deg": 19.7,
+          "wind_correct_10ms_cross_mil": 6,
+          "wind_correct_10ms_long_m": 147
+        },
+        "13000": {
+          "elev_mil": 238,
+          "time_of_flight_sec": 27.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 966,
+          "angle_of_impact_deg": 20.3,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 152
+        },
+        "13200": {
+          "elev_mil": 244,
+          "time_of_flight_sec": 28.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1010,
+          "angle_of_impact_deg": 21,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 157
+        },
+        "13400": {
+          "elev_mil": 251,
+          "time_of_flight_sec": 29.2,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.1,
+          "peak_alt_m": 1061,
+          "angle_of_impact_deg": 23.5,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 177
+        },
+        "13600": {
+          "elev_mil": 258,
+          "time_of_flight_sec": 29.8,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1112,
+          "angle_of_impact_deg": 24.2,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 182
+        },
+        "13800": {
+          "elev_mil": 264,
+          "time_of_flight_sec": 30.5,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1156,
+          "angle_of_impact_deg": 24.8,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 187
+        },
+        "14000": {
+          "elev_mil": 271,
+          "time_of_flight_sec": 31.2,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1208,
+          "angle_of_impact_deg": 23.7,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 178
+        },
+        "14200": {
+          "elev_mil": 279,
+          "time_of_flight_sec": 31.9,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1272,
+          "angle_of_impact_deg": 24.5,
+          "wind_correct_10ms_cross_mil": 7,
+          "wind_correct_10ms_long_m": 184
+        },
+        "14400": {
+          "elev_mil": 286,
+          "time_of_flight_sec": 32.6,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1328,
+          "angle_of_impact_deg": 25.3,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 190
+        },
+        "14600": {
+          "elev_mil": 294,
+          "time_of_flight_sec": 33.4,
+          "d_elev_per_100m_dr_mil": 1,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1390,
+          "angle_of_impact_deg": 26,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 196
+        },
+        "14800": {
+          "elev_mil": 301,
+          "time_of_flight_sec": 34.1,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1445,
+          "angle_of_impact_deg": 26.7,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 201
+        },
+        "15000": {
+          "elev_mil": 309,
+          "time_of_flight_sec": 34.9,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1508,
+          "angle_of_impact_deg": 29.3,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 221
+        },
+        "15200": {
+          "elev_mil": 318,
+          "time_of_flight_sec": 35.7,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1578,
+          "angle_of_impact_deg": 30.2,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 227
+        },
+        "15400": {
+          "elev_mil": 326,
+          "time_of_flight_sec": 36.5,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1657,
+          "angle_of_impact_deg": 29.3,
+          "wind_correct_10ms_cross_mil": 8,
+          "wind_correct_10ms_long_m": 220
+        },
+        "15600": {
+          "elev_mil": 335,
+          "time_of_flight_sec": 37.3,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1732,
+          "angle_of_impact_deg": 30.1,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 227
+        },
+        "15800": {
+          "elev_mil": 345,
+          "time_of_flight_sec": 38.2,
+          "d_elev_per_100m_dr_mil": 2,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1820,
+          "angle_of_impact_deg": 31.1,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 235
+        },
+        "16000": {
+          "elev_mil": 354,
+          "time_of_flight_sec": 39.1,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1902,
+          "angle_of_impact_deg": 32,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 241
+        },
+        "16200": {
+          "elev_mil": 364,
+          "time_of_flight_sec": 40.0,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 1993,
+          "angle_of_impact_deg": 34.8,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 262
+        },
+        "16400": {
+          "elev_mil": 374,
+          "time_of_flight_sec": 40.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2079,
+          "angle_of_impact_deg": 34,
+          "wind_correct_10ms_cross_mil": 9,
+          "wind_correct_10ms_long_m": 256
+        },
+        "16600": {
+          "elev_mil": 385,
+          "time_of_flight_sec": 41.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2184,
+          "angle_of_impact_deg": 35.1,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 264
+        },
+        "16800": {
+          "elev_mil": 397,
+          "time_of_flight_sec": 42.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.2,
+          "peak_alt_m": 2304,
+          "angle_of_impact_deg": 34.6,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 261
+        },
+        "17000": {
+          "elev_mil": 409,
+          "time_of_flight_sec": 43.9,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2417,
+          "angle_of_impact_deg": 37.4,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 281
+        },
+        "17200": {
+          "elev_mil": 422,
+          "time_of_flight_sec": 45.0,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2539,
+          "angle_of_impact_deg": 38.5,
+          "wind_correct_10ms_cross_mil": 10,
+          "wind_correct_10ms_long_m": 290
+        },
+        "17400": {
+          "elev_mil": 435,
+          "time_of_flight_sec": 46.2,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2667,
+          "angle_of_impact_deg": 39.7,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 299
+        },
+        "17600": {
+          "elev_mil": 450,
+          "time_of_flight_sec": 47.4,
+          "d_elev_per_100m_dr_mil": 3,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2819,
+          "angle_of_impact_deg": 42.7,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 267
+        },
+        "17800": {
+          "elev_mil": 465,
+          "time_of_flight_sec": 48.7,
+          "d_elev_per_100m_dr_mil": 4,
+          "time_of_flight_per_100m_dr_sec": 0.3,
+          "peak_alt_m": 2964,
+          "angle_of_impact_deg": 42.4,
+          "wind_correct_10ms_cross_mil": 11,
+          "wind_correct_10ms_long_m": 262
+        },
+        "18000": {
+          "elev_mil": 482,
+          "time_of_flight_sec": 50.1,
+          "d_elev_per_100m_dr_mil": 5,
+          "time_of_flight_per_100m_dr_sec": 0.4,
+          "peak_alt_m": 3141,
+          "angle_of_impact_deg": 43.7,
+          "wind_correct_10ms_cross_mil": 12,
+          "wind_correct_10ms_long_m": 166
+        }
+      }
+    }
+  }
+}
