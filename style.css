@@ -79,7 +79,8 @@
         }
 
         input,
-        button {
+        button,
+        select {
             width: 100%;
             padding: 12px;
             background-color: var(--bg-color);
@@ -88,11 +89,18 @@
             border-radius: 4px;
             box-sizing: border-box;
             font-size: 16px;
+            font-family: inherit;
         }
 
-        input:focus {
+        input:focus,
+        select:focus {
             border-color: var(--accent);
             outline: none;
+        }
+
+        select:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
         }
 
         .info-icon {

@@ -33,7 +33,24 @@
                 </span>
             </h1>
 
-            <div class="card">
+            <div class="card" id="weapon-card">
+                <div class="input-field" style="margin-bottom: 15px;">
+                    <label>Weapon System</label>
+                    <select id="weapon-select" onchange="onWeaponChange()">
+                        <option value="">-- Select Weapon --</option>
+                    </select>
+                    <span class="field-hint" id="mil-system-label"></span>
+                </div>
+
+                <div class="input-field" style="margin-bottom: 0;">
+                    <label>Ammunition Type</label>
+                    <select id="ammo-types-select" disabled onchange="onAmmoTypesChange()">
+                        <option value="" disabled selected>-- Select a weapon first --</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="card" id="mission-card">
                 <div class="input-field" style="margin-bottom: 15px;">
                     <label>My Position</label>
                     <input type="text" id="pos" placeholder="X Y E [NUM]" autocomplete="off" oninput="renderHistory()">
@@ -78,15 +95,134 @@
     </div>
 
     <script>
-        let M107_BALLISTIC_TABLE = {};
+        // Mils-per-circle for each supported milliradian system.
+        const MIL_SYSTEMS = {
+            US: 6400,
+            RUS: 6000
+        };
+
+        // Add new weapons here as more ballistic tables become available.
+        // milRadType must be one of the keys in MIL_SYSTEMS ("US" or "RUS").
+        const WEAPONS = {
+            "M177_HOWITZER": {
+                label: "M177 Howitzer",
+                file: "M107_BALLISTIC_TABLE.json",
+                milRadType: "US"
+            },
+            "M821_MORTAR": {
+                label: "Mortar (US)",
+                file: "M821_BALLISTIC_TABLE.json",
+                milRadType: "US"
+            },
+            "O832DU_MORTAR": {
+                label: "Mortar (RUS)",
+                file: "O-832DU_BALLISTIC_TABLE.json",
+                milRadType: "RUS"
+            }
+        };
+
+        let BALLISTIC_TABLE = {};
+        let selectedAmmoTypes = new Set();
+        let currentMilsPerCircle = MIL_SYSTEMS.US;
 
         let targetHistory = [];
+
+        function populateWeaponOptions() {
+            const select = document.getElementById('weapon-select');
+            for (const key in WEAPONS) {
+                const opt = document.createElement('option');
+                opt.value = key;
+                opt.textContent = WEAPONS[key].label;
+                select.appendChild(opt);
+            }
+        }
+
+        function onWeaponChange() {
+            const weaponKey = document.getElementById('weapon-select').value;
+            const ammoSelect = document.getElementById('ammo-types-select');
+            const milSystemLabel = document.getElementById('mil-system-label');
+
+            BALLISTIC_TABLE = {};
+            selectedAmmoTypes = new Set();
+            ammoSelect.innerHTML = "";
+            ammoSelect.disabled = true;
+            currentMilsPerCircle = MIL_SYSTEMS.US;
+
+            // Keep existing mission history; results are recalculated live from
+            // BALLISTIC_TABLE/selectedAmmoTypes inside renderHistory() below.
+            renderHistory();
+
+            if (!weaponKey || !WEAPONS[weaponKey]) {
+                const placeholder = document.createElement('option');
+                placeholder.value = "";
+                placeholder.disabled = true;
+                placeholder.textContent = "-- Select a weapon first --";
+                ammoSelect.appendChild(placeholder);
+                return;
+            }
+
+            const weapon = WEAPONS[weaponKey];
+            currentMilsPerCircle = MIL_SYSTEMS[weapon.milRadType] || MIL_SYSTEMS.US;
+
+            fetch(weapon.file)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Failed to load ballistic table: " + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    BALLISTIC_TABLE = data;
+
+                    const ammoTypes = Object.keys(data);
+                    ammoSelect.innerHTML = "";
+
+                    ammoTypes.forEach((type, index) => {
+                        const opt = document.createElement('option');
+                        opt.value = type;
+                        opt.textContent = type;
+                        if (index === 0) opt.selected = true;
+                        ammoSelect.appendChild(opt);
+                    });
+
+                    // Default to the first ammo type in the list
+                    selectedAmmoTypes = new Set(ammoTypes.length > 0 ? [ammoTypes[0]] : []);
+
+                    ammoSelect.disabled = false;
+                    renderHistory();
+                })
+                .catch(error => {
+                    console.error("Error importing ballistic data:", error);
+                    ammoSelect.innerHTML = "";
+                    const errOpt = document.createElement('option');
+                    errOpt.value = "";
+                    errOpt.disabled = true;
+                    errOpt.textContent = "Failed to load ballistic data";
+                    ammoSelect.appendChild(errOpt);
+                });
+        }
+
+        function onAmmoTypesChange() {
+            const ammoSelect = document.getElementById('ammo-types-select');
+            selectedAmmoTypes = new Set(ammoSelect.value ? [ammoSelect.value] : []);
+            renderHistory();
+        }
 
         function resetInputs() {
             document.getElementById('pos').value = "";
             document.getElementById('target').value = "";
             document.getElementById('global-wind-dir').value = "0";
             document.getElementById('global-wind-val').value = "0";
+
+            const ammoSelect = document.getElementById('ammo-types-select');
+            const ammoTypes = Object.keys(BALLISTIC_TABLE);
+            if (ammoTypes.length > 0) {
+                ammoSelect.value = ammoTypes[0];
+                selectedAmmoTypes = new Set([ammoTypes[0]]);
+            } else {
+                selectedAmmoTypes = new Set();
+            }
+
             renderHistory();
         }
 
@@ -181,6 +317,16 @@
         function calculateTarget() {
             const input = document.getElementById('target').value;
             if (!input) return;
+
+            if (Object.keys(BALLISTIC_TABLE).length === 0) {
+                alert("Select a weapon system before adding a mission.");
+                return;
+            }
+            if (selectedAmmoTypes.size === 0) {
+                alert("Select an ammunition type before adding a mission.");
+                return;
+            }
+
             let p;
 
             try {
@@ -236,7 +382,7 @@
 
                     const baseAzRad = Math.atan2(dx, dy);
                     const baseAzDeg = ((baseAzRad * (180 / Math.PI) + 360) % 360);
-                    const baseAzMil = baseAzDeg * (6400 / 360);
+                    const baseAzMil = baseAzDeg * (currentMilsPerCircle / 360);
 
                     let results = `
                     <div class="result-header-row">
@@ -245,66 +391,78 @@
                     </div>`;
                     let totalSolutionsFound = 0;
 
-                    for (const mode in M107_BALLISTIC_TABLE) {
-                        let modeHtml = `<div class="mode-heading">${mode}</div>`;
-                        let modeSolutions = 0;
+                    if (Object.keys(BALLISTIC_TABLE).length === 0) {
+                        results = `<div style="color:var(--danger); margin-top:5px;">No weapon system selected. Choose one on the left panel.</div>`;
+                    } else if (selectedAmmoTypes.size === 0) {
+                        results = `<div style="color:var(--danger); margin-top:5px;">No ammunition type selected. Choose one on the left panel.</div>`;
+                    } else {
+                        for (const type in BALLISTIC_TABLE) {
+                            if (!selectedAmmoTypes.has(type)) continue;
 
-                        for (const charge in M107_BALLISTIC_TABLE[mode]) {
-                            const chargeObj = M107_BALLISTIC_TABLE[mode][charge];
-                            const tableData = getSortedDataArray(chargeObj.data);
+                            const typeTable = BALLISTIC_TABLE[type];
 
-                            const baseSol = interpolateTable(dist, tableData);
-                            if (baseSol) {
-                                const phiRad = globalWindDir * (Math.PI / 180);
-                                const relAngle = phiRad - baseAzRad;
+                            for (const mode in typeTable) {
+                                let modeHtml = `<div class="mode-heading">${mode}</div>`;
+                                let modeSolutions = 0;
 
-                                const cosWind = Math.cos(relAngle);
-                                const sinWind = Math.sin(relAngle);
+                                for (const charge in typeTable[mode]) {
+                                    const chargeObj = typeTable[mode][charge];
+                                    const tableData = getSortedDataArray(chargeObj.data);
 
-                                const deltaRange = (globalWindVal / 10) * cosWind * baseSol.wind_correct_10ms_long_m;
-                                const deltaAz = (globalWindVal / 10) * sinWind * baseSol.wind_correct_10ms_cross_mil;
+                                    const baseSol = interpolateTable(dist, tableData);
+                                    if (baseSol) {
+                                        const phiRad = globalWindDir * (Math.PI / 180);
+                                        const relAngle = phiRad - baseAzRad;
 
-                                const adjustedDist = dist + deltaRange;
-                                const finalSol = interpolateTable(adjustedDist, tableData);
+                                        const cosWind = Math.cos(relAngle);
+                                        const sinWind = Math.sin(relAngle);
 
-                                if (finalSol) {
-                                    modeSolutions++;
-                                    totalSolutionsFound++;
+                                        const deltaRange = (globalWindVal / 10) * cosWind * baseSol.wind_correct_10ms_long_m;
+                                        const deltaAz = (globalWindVal / 10) * sinWind * baseSol.wind_correct_10ms_cross_mil;
 
-                                    let el = Math.round(finalSol.elev_mil + (dz / 100) * finalSol.d_elev_per_100m_dr_mil);
-                                    el = ((el % 6400) + 6400) % 6400;
+                                        const adjustedDist = dist + deltaRange;
+                                        const finalSol = interpolateTable(adjustedDist, tableData);
 
-                                    let finalAz = Math.round((baseAzMil + deltaAz + 6400) % 6400);
+                                        if (finalSol) {
+                                            modeSolutions++;
+                                            totalSolutionsFound++;
 
-                                    modeHtml += `
-                                    <div class="result-line">
-                                        <div class="result-row-primary">
+                                            let el = Math.round(finalSol.elev_mil + (dz / 100) * finalSol.d_elev_per_100m_dr_mil);
+                                            el = ((el % 6400) + 6400) % 6400;
+
+                                            let finalAz = Math.round((baseAzMil + deltaAz + 6400) % 6400);
+
+                                            modeHtml += `
+                                        <div class="result-line">
+                                            <div class="result-row-primary">
+                                                <span style="width: 75px; font-weight: bold; color: var(--text-muted)">CHG ${charge}</span>
+                                                <span style="margin-right:20px;">↔ Azimuth: <strong style="color:var(--text-main)">${finalAz}</strong></span>
+                                                <span>↕ Elevation: <strong style="color:var(--accent)">${el}</strong></span>
+                                                <span style="margin-left:auto; font-size:0.85em; color:#aaa;">⏱ Time: <strong style="color:#b0bec5">${finalSol.time_of_flight_sec.toFixed(1)}s</strong></span>
+                                            </div>
+                                            <div class="result-row-secondary">
+                                                <span>▲ Peak Alt: <strong style="color:#b0bec5">${Math.round(finalSol.peak_alt_m)}m</strong></span>
+                                                <span>∠ Impact: <strong style="color:#b0bec5">${finalSol.angle_of_impact_deg.toFixed(1)}°</strong></span>
+                                            </div>
+                                        </div>`;
+                                        } else {
+                                            modeHtml += `
+                                        <div class="result-line" style="color:var(--danger); font-size:0.9em;">
                                             <span style="width: 75px; font-weight: bold; color: var(--text-muted)">CHG ${charge}</span>
-                                            <span style="margin-right:20px;">↔ Azimuth: <strong style="color:var(--text-main)">${finalAz}</strong></span>
-                                            <span>↕ Elevation: <strong style="color:var(--accent)">${el}</strong></span>
-                                            <span style="margin-left:auto; font-size:0.85em; color:#aaa;">⏱ Time: <strong style="color:#b0bec5">${finalSol.time_of_flight_sec.toFixed(1)}s</strong></span>
-                                        </div>
-                                        <div class="result-row-secondary">
-                                            <span>▲ Peak Alt: <strong style="color:#b0bec5">${Math.round(finalSol.peak_alt_m)}m</strong></span>
-                                            <span>∠ Impact: <strong style="color:#b0bec5">${finalSol.angle_of_impact_deg.toFixed(1)}°</strong></span>
-                                        </div>
-                                    </div>`;
-                                } else {
-                                    modeHtml += `
-                                    <div class="result-line" style="color:var(--danger); font-size:0.9em;">
-                                        <span style="width: 75px; font-weight: bold; color: var(--text-muted)">CHG ${charge}</span>
-                                        Wind displacement out of bounds (${Math.round(adjustedDist)}m)
-                                    </div>`;
+                                            Wind displacement out of bounds (${Math.round(adjustedDist)}m)
+                                        </div>`;
+                                        }
+                                    }
+                                }
+                                if (modeSolutions > 0) {
+                                    results += modeHtml;
                                 }
                             }
                         }
-                        if (modeSolutions > 0) {
-                            results += modeHtml;
-                        }
-                    }
 
-                    if (totalSolutionsFound === 0) {
-                        results = `<div style="color:var(--danger); margin-top:5px;">OUT OF BALLISTIC RANGE LIMITS (${Math.round(dist)}m)</div>`;
+                        if (totalSolutionsFound === 0) {
+                            results = `<div style="color:var(--danger); margin-top:5px;">OUT OF BALLISTIC RANGE LIMITS (${Math.round(dist)}m)</div>`;
+                        }
                     }
 
                     html += `<div class="target-results">${results}</div>`;
@@ -322,23 +480,7 @@
         // --- First Visit Tooltip Setup ---
         document.addEventListener("DOMContentLoaded", () => {
 
-            fetch('M107_BALLISTIC_TABLE.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error("Failed to load ballistic table: " + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    M107_BALLISTIC_TABLE = data;
-                    console.log("Ballistic table successfully loaded dynamically!");
-
-                    // Re-render history just in case anything was waiting on it
-                    renderHistory();
-                })
-                .catch(error => {
-                    console.error("Error importing ballistic data:", error);
-                });
+            populateWeaponOptions();
 
             const tooltip = document.querySelector(".info-icon .tooltip");
             const infoIcon = document.getElementById("info-icon-container");
