@@ -4,15 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spearhead Artillery Calculator</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Spearhead Artillery Calculator | Arma Reforger Ballistic Solver</title>
+    <meta name="title" content="Spearhead Artillery Calculator | Arma Reforger Ballistic Solver">
+    <meta name="description"
+        content="Free online artillery and mortar calculator for Arma Reforger's Spearhead mod. Get precise azimuth, elevation, and wind-corrected firing solutions for the M177 Howitzer, M821 and O-832DU mortars, 2B9 Vasilek, AGS-17, and BM-21 Grad.">
+    <meta name="keywords"
+        content="arma reforger artillery calculator, spearhead mod, mortar calculator, ballistic calculator, M177 howitzer, M821 mortar, O-832DU, 2B9 Vasilek, AGS-17, BM-21 Grad, fire mission calculator, arma fire support">
+    <meta name="author" content="reforger-calculator">
+    <meta name="rating" content="general">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Canonical & Language -->
+    <link rel="canonical" href="https://reforger-calculator.github.io/artillery/">
+    <meta http-equiv="content-language" content="en">
+    <link rel="alternate" hreflang="en" href="https://reforger-calculator.github.io/artillery/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://reforger-calculator.github.io/artillery/">
+    <meta property="og:title" content="Spearhead Artillery Calculator | Arma Reforger Ballistic Solver">
+    <meta property="og:description"
+        content="Free online artillery and mortar calculator for Arma Reforger's Spearhead mod. Precise azimuth, elevation, and wind-corrected firing solutions for every supported weapon system.">
+    <meta property="og:image" content="https://reforger-calculator.github.io/artillery/image1.png">
+    <meta property="og:site_name" content="Spearhead Artillery Calculator">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://reforger-calculator.github.io/artillery/">
+    <meta name="twitter:title" content="Spearhead Artillery Calculator | Arma Reforger Ballistic Solver">
+    <meta name="twitter:description"
+        content="Free online artillery and mortar calculator for Arma Reforger's Spearhead mod. Precise azimuth, elevation, and wind-corrected firing solutions for every supported weapon system.">
+    <meta name="twitter:image" content="https://reforger-calculator.github.io/artillery/image1.png">
+
+    <!-- Mobile / PWA -->
+    <meta name="theme-color" content="#ff9800">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Artillery Calc">
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Structured Data: WebApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Spearhead Artillery Calculator",
+        "url": "https://reforger-calculator.github.io/artillery/",
+        "description": "Free online artillery and mortar calculator for Arma Reforger's Spearhead mod. Get precise azimuth, elevation, and wind-corrected firing solutions for the M177 Howitzer, M821 and O-832DU mortars, 2B9 Vasilek, AGS-17, and BM-21 Grad.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": true,
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
+    <!-- Structured Data: Creator -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "reforger-calculator",
+        "url": "https://reforger-calculator.github.io/artillery/"
+    }
+    </script>
 </head>
 
 <body>
 
-    <div class="app-layout">
-        <div class="sidebar-left">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+        <main class="app-layout">
+        <section class="sidebar-left" aria-label="Weapon and mission input">
             <h1>Spearhead Artillery Calculator
                 <span class="info-icon" id="info-icon-container">i
                     <div class="tooltip">
@@ -82,9 +156,9 @@
 
                 <button class="btn-reset" onclick="resetInputs()">RESET ALL INPUTS</button>
             </div>
-        </div>
+        </section>
 
-        <div class="content-right">
+        <section class="content-right" aria-label="Mission history and firing solutions">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
                 <h3
                     style="margin: 0; color: var(--text-muted); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px;">
@@ -93,7 +167,12 @@
             </div>
 
             <div id="target-list"></div>
-        </div>
+        </section>
+    </main>
+
+    <footer style="max-width: 1200px; margin: 20px auto 0; text-align: center; color: var(--text-muted); font-size: 0.8em;">
+        Community-made ballistic calculator for the Spearhead mod for Arma Reforger. Not affiliated with Bohemia Interactive.
+    </footer>
     </div>
 
     <script>
@@ -119,6 +198,21 @@
             "O832DU_MORTAR": {
                 label: "Mortar (RUS)",
                 file: "O-832DU_BALLISTIC_TABLE.json",
+                milRadType: "RUS"
+            },
+            "2B9_VASILEK": {
+                label: "2B9 Vasilek (RUS)",
+                file: "2B9_BALLISTIC_TABLE.json",
+                milRadType: "RUS"
+            },
+            "AGS17_GRENADE_LAUNCHER": {
+                label: "AGS-17 (RUS)",
+                file: "AGS17_BALLISTIC_TABLE.json",
+                milRadType: "RUS"
+            },
+            "BM21_GRAD": {
+                label: "BM-21 Grad (RUS)",
+                file: "BM21_GRAD_BALLISTIC_TABLE.json",
                 milRadType: "RUS"
             }
         };

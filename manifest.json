@@ -1,0 +1,19 @@
+{
+    "name": "Spearhead Artillery Calculator",
+    "short_name": "Artillery Calc",
+    "description": "Free online artillery and mortar calculator for Arma Reforger's Spearhead mod. Precise azimuth, elevation, and wind-corrected firing solutions.",
+    "start_url": "https://reforger-calculator.github.io/artillery/",
+    "scope": "https://reforger-calculator.github.io/artillery/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#121212",
+    "theme_color": "#ff9800",
+    "categories": ["utilities", "games"],
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        }
+    ]
+}

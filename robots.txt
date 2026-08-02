@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://reforger-calculator.github.io/artillery/sitemap.xml
